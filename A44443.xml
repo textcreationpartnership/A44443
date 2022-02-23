@@ -1,0 +1,969 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The vanity of the vvorld by Ezekiel Hopkins.</title>
+            <author>Hopkins, Ezekiel, 1634-1690.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1668</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 110 KB of XML-encoded text transcribed from 76 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A44443</idno>
+            <idno type="STC">Wing H2741</idno>
+            <idno type="STC">ESTC R14252</idno>
+            <idno type="EEBO-CITATION">11712946</idno>
+            <idno type="OCLC">ocm 11712946</idno>
+            <idno type="VID">48296</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A44443)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 48296)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 534:22)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The vanity of the vvorld by Ezekiel Hopkins.</title>
+                  <author>Hopkins, Ezekiel, 1634-1690.</author>
+               </titleStmt>
+               <extent>[14], 136 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Nathanael Ranew and Jonathan Robinson ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1668.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Title within double line borders.</note>
+                  <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Pride and vanity --  Early works to 1800.</term>
+               <term>Funeral sermons.</term>
+               <term>Conduct of life --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-03</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2009-03</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:48296:1"/>
+            <pb facs="tcp:48296:1" rendition="simple:additions"/>
+            <p>THE VANITY OF THE VVORLD.</p>
+            <p>BY EZEKIEL HOPKINS.</p>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>Nathaniel Ranew</hi> and <hi>Jonathan Robinſon</hi> at the <hi>Angel</hi> in <hi>Jewen-ſtreet,</hi> 1668.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:48296:2"/>
+            <pb facs="tcp:48296:2"/>
+            <head>TO THE Right Worſhipful, SIR ROBERT VYNER Knight and Baronet.</head>
+            <opener>
+               <salute>Sir,</salute>
+            </opener>
+            <p>WEre You one of that ſort of men, who value themſelves by the Bag, or the Acre; it might poſſibly be thought ra<g ref="char:EOLhyphen"/>ther an Affront, than a
+<pb facs="tcp:48296:3"/>
+Dedication, to prefix your Name to this Trea<g ref="char:EOLhyphen"/>tiſe. For ſince it is purpoſely intended to beat down the price of the World, and to ex<g ref="char:EOLhyphen"/>poſe its admired Vani<g ref="char:EOLhyphen"/>ties to publick contempt, thoſe ſordid Spirits, who have no other worth to commend them, but what is ſumm'd up in their yearly Revenues, would interpret ſuch an Addreſs, not ſo much
+<pb facs="tcp:48296:3"/>
+a tender of reſpect and ſervice, as a deſign to undo and begger them. But Sir to you, whom God hath doubly bleſt with a large Eſtate, and a larger heart, I doubt not but this Piece will be very accepta<g ref="char:EOLhyphen"/>ble; if upon no other accompt, yet at least as the peruſal of it may be helpful to you to ſtrip off, and as it were to ſe<g ref="char:EOLhyphen"/>queſter all your worldly
+<pb facs="tcp:48296:4"/>
+advantages, that you may the better take an Eſtimate of your ſelf according to your Na<g ref="char:EOLhyphen"/>tive and Genuine worth, both as a man, and as a Christian.</p>
+            <p>I am not ſo much a <hi>Cynick,</hi> as to plead for affected Poverty, and a diſdainful rejecting the gifts of Divine Providence. Such a moroſe and ſowre pride I judg worthy to be
+<pb facs="tcp:48296:4"/>
+chaſtis'd not onely with the cenſure of Vanity, but Impiety. We need not ſhelter our ſelves under any Monaſtick vow; nor flie to De<g ref="char:EOLhyphen"/>ſerts, and Solitudes to hide us from the Al<g ref="char:EOLhyphen"/>lurements of the World: This is to run away from that Enemy, whom we ought to con<g ref="char:EOLhyphen"/>quer. Certainly Re<g ref="char:EOLhyphen"/>ligion allows us the poſ<g ref="char:EOLhyphen"/>ſeſſion of earthly Com<g ref="char:EOLhyphen"/>forts;
+<pb facs="tcp:48296:5"/>
+onely it regulates the <g ref="char:V">Ʋ</g>ſe, and forbids the inordinate Love of them. We may prize them as Comforts, but not as Treaſures: And while we imploy a due part of our abundance, in the works of a gene<g ref="char:EOLhyphen"/>rous Charity, and true Piety, we may well look upon what is left, as a Salary that God gives us for being faithful Stewards of
+<pb facs="tcp:48296:5"/>
+the reſt. Thus to uſe the World for the Inte<g ref="char:EOLhyphen"/>reſts of Heaven, to make its enjoyments tributary to Gods Glo<g ref="char:EOLhyphen"/>ry, it is to convert and proſelite it; and turn that into an Offring, which others make an Idol. By this we give Earth a Tranſlation; and in a nobler ſence than the new Syſteme of Aſtronomy teacheth, advance it to be a Star,
+<pb facs="tcp:48296:6"/>
+and a Celeſtial body. And by this Method, we change thoſe helps that Vice had to make it ſelf prodigious and infamous, into the moſt ſerviceable Inſtru<g ref="char:EOLhyphen"/>ments that Vertue can have to make it ſelf con<g ref="char:EOLhyphen"/>ſpicuous and exempla<g ref="char:EOLhyphen"/>ry. For Wealth and Honour in a vertuous perſon, are like the well ſetting of a Jem, which, though it makes
+<pb facs="tcp:48296:6"/>
+it not more pretious, makes it more ſparkling.</p>
+            <p>But Sir, I forget my ſelf, and inſtead of writing a Letter, am writing a Tract. I ſhall make no other A<g ref="char:EOLhyphen"/>pology for it, but that the Book being de<g ref="char:EOLhyphen"/>ſigned againſt Vanity, I would not have the Dedication of it guilty of that common and no<g ref="char:EOLhyphen"/>torious one, to be fil'd onely with Comple<g ref="char:EOLhyphen"/>ments.
+<pb facs="tcp:48296:7"/>
+And I hope you will not think it any thing of that ſtrain, when I ſhall aſſure you that my prayers to God for you are, that you may ſtill enjoy all ad<g ref="char:EOLhyphen"/>vantages of doing good here on Earth, and hereafter receive the reward of it in Hea<g ref="char:EOLhyphen"/>ven.</p>
+            <closer>
+               <dateline>
+                  <hi>Exon.</hi>
+                  <date>Feb. <hi>1. 1668.</hi>
+                  </date>
+               </dateline>
+               <signed>
+                  <hi>Your moſt Hum<g ref="char:EOLhyphen"/>ble, and moſt obliged Servant,</hi> Ezek. Hopkins.</signed>
+            </closer>
+            <pb facs="tcp:48296:7"/>
+         </div>
+         <div type="errata">
+            <pb facs="tcp:48296:8"/>
+            <head>The Reader is deſired to pardon faults of leſs moment and to correct theſe which follow.</head>
+            <p>PAge 6. line 18. for <hi>ſince</hi> read <hi>ſence.</hi> p. 22. margin, for <hi>cu<g ref="char:EOLhyphen"/>ralia</hi> r. <hi>curatio.</hi> p. 24. for <hi>ridiculous</hi> r. <hi>ridiculouſly.</hi> p. 25. marg. for <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> r. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. p. 27. marg. for <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> r. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. p. 28. for <hi>ſofter</hi> r. <hi>ſofteſt.</hi> p. 31. l. 8. for <hi>imagined</hi> r. <hi>imagine.</hi> p. 41. marg. for <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> r. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> ibid. for <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> r. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. p. 46. marg for <hi>luxuriae</hi> r. <hi>luxuria.</hi> p. 47. marg. for <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> r. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:48296:8"/>
+            <head>THE VANITY. OF THE VVORLD.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>Eccleſiaſtes 1.2.</hi>
+                  </bibl>
+                  <p>Vanity of Vanities, ſaith the Preacher, Vanity of Vanities, all is Vanity.</p>
+               </q>
+            </epigraph>
+            <p>THe Preacher here men<g ref="char:EOLhyphen"/>tioned, is no leſſe a Perſon than <hi>Solomon:</hi> and this whole Book is no o<g ref="char:EOLhyphen"/>ther than his recantation Ser<g ref="char:EOLhyphen"/>mon.
+<pb n="2" facs="tcp:48296:9"/>
+The Text he preacht on is the ſame that I have cho<g ref="char:EOLhyphen"/>ſen: and it contains the true and ſevere judgement he paſt upon all things under the Sun. Certainly, he who had <hi>Ri<g ref="char:EOLhyphen"/>ches as plentiful as the</hi> 
+               <note n="a" place="margin">1 <hi>Kings</hi> 8.27.</note> 
+               <hi>Stones of the Street,</hi> and <hi>Wiſedom as large as the ſand of the</hi> 
+               <note n="b" place="margin">1 <hi>Kings</hi> 4.29.</note> 
+               <hi>Sea,</hi> could want no advantages either to try experiments, or draw concluſions from them. And yet, when he had <note n="c" place="margin">
+                  <hi>Eccleſ.</hi> 1.16, 17.</note> em<g ref="char:EOLhyphen"/>ployed both, in the critical ſearch of true happineſs, and contentment, and had diſſect<g ref="char:EOLhyphen"/>ed and ranſacked the whole world to find it, He returns diſappointed of his hopes, and tired with his purſuite, and begins the ſad Narrative of his long wandrings and errors, with <hi>Vanity of Vanities all is Vanity.</hi>
+            </p>
+            <p>
+               <pb n="3" facs="tcp:48296:9"/>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> The whole Verſe is loaden with Emphaſes: and it is firſt obſervable, That he doth not glide into it, by any ſmooth connexion of ſence, or ſen<g ref="char:EOLhyphen"/>tences; but on a ſudden breaks upon us, with a ſurpri<g ref="char:EOLhyphen"/>ſing abruptneſſe, <hi>Vanity of Va<g ref="char:EOLhyphen"/>nities.</hi> Which ſhews a mind ſo full of matter, that it could not attend the circumſtance of a Prologue to uſher it in.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Again, it is all expreſt in the Abſtract. It ſufficed not to cenſure all things to be vain, but they are <hi>Vanity</hi> it ſelf.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> And this Abſtract hath a<g ref="char:EOLhyphen"/>nother heapt upon it, <hi>Vanity of Vanities.</hi> Now this reflexi<g ref="char:EOLhyphen"/>on of the ſame word upon it ſelf, is alway uſed to ſignifie the height and greatneſſe of
+<pb n="4" facs="tcp:48296:10"/>
+the thing expreſt, as <hi>King of Kings,</hi> and <hi>Lord of Lords</hi> de<g ref="char:EOLhyphen"/>notes the higheſt King, and the moſt abſolute Lord. So here <hi>Vanity of Vanities</hi> inti<g ref="char:EOLhyphen"/>mates to us the moſt exceed<g ref="char:EOLhyphen"/>ing ſuperlative Vanity imagi<g ref="char:EOLhyphen"/>nable.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/> Again, this is not only once pronounced but doubled and repeated: partly the more to confirme this truth to our be<g ref="char:EOLhyphen"/>lief; and thus <hi>Pharaohs</hi> dream was <note n="*" place="margin">
+                  <hi>Gen.</hi> 41.32.</note> doubled: and partly the more to imprint it upon our conſideration. <hi>Vanity of Vani<g ref="char:EOLhyphen"/>ties, Vanity of Vanities, all is Vanity.</hi>
+            </p>
+            <p>But though this be expreſt in moſt general and compre<g ref="char:EOLhyphen"/>henſive termes, yet it muſt not be taken in the utmoſt lati<g ref="char:EOLhyphen"/>tude, as if there were nothing
+<pb n="5" facs="tcp:48296:10"/>
+at all of ſolid, and real good extant. It is enough if we underſtand the words in a ſence reſtrained to the ſubject mat<g ref="char:EOLhyphen"/>ter whereof he here treats. For the Wiſeman himſelf <note n="*" place="margin">
+                  <hi>Ecl.</hi> 12.13.</note>ex<g ref="char:EOLhyphen"/>empts the <hi>Fear</hi> and <hi>ſervice of God,</hi> from that <hi>Vanity</hi> under which he had concluded all other things. God and Reli<g ref="char:EOLhyphen"/>gion have in them a ſolid and ſubſtantial good; the one as our utmoſt end and happineſs, the other as the beſt propor<g ref="char:EOLhyphen"/>tioned means to attain it.</p>
+            <p>When therefore he pro<g ref="char:EOLhyphen"/>nounceth all to be Vanity, it muſt be meant of all worldly and earthly things: for he ſpeaks onely of theſe. And if we enquire what theſe wordly things are, that have this cen<g ref="char:EOLhyphen"/>ſure of Vanity ſo vehemently
+<pb n="6" facs="tcp:48296:11"/>
+paſt upon them, Saint <hi>John</hi> hath drawn up a full and true Inventory of all the goods that are to be found in this great Houſe of the Univerſe, 1 John 2.16. <hi>All that is in the world is the lust of the fleſh, the luſt of the eye, and the pride of Life. The Luſts of the fleſh</hi> are the pleaſures of the world; which are all of them ſuited to gra<g ref="char:EOLhyphen"/>tifie the ſenſual and fleſhly part of man. <hi>The Lusts of the eye,</hi> are riches; ſo called, becauſe their greateſt ſervice<g ref="char:EOLhyphen"/>ableneſs is onely to make a glittering, and dazling ſhew. Which ſince <hi>Solomon</hi> approves, Eccleſ. 5.11. <hi>What good is there to the owners thereof, ſave the beholding them with their eyes. The Pride of life</hi> is honour and dignity, that
+<pb n="7" facs="tcp:48296:11"/>
+flatulent, and aiery notion, that puffes up mens pride and vain-glory, and makes them look upon their inferi<g ref="char:EOLhyphen"/>ours, as though they were not their fellow Creatures. This is all that the world can ſhew, <hi>Pleaſures, Riches, Honors,</hi> and this is that <hi>All</hi> concern<g ref="char:EOLhyphen"/>ing which the Wiſeman pro<g ref="char:EOLhyphen"/>nounceth that it is <hi>Vanity.</hi>
+            </p>
+            <p>For theſe things, though they make a fair and gaudy ſhew, yet it is all but ſhew and ap<g ref="char:EOLhyphen"/>pearance. As bubbles blown into the air, will repreſent great variety of Orient and glitter<g ref="char:EOLunhyphen"/>ing colours, not (as ſome ſuppoſe) that there are any ſuch really there, but onely they appear ſo to us, thorough a falſe reflexion of light caſt upon them: ſo truly this world,
+<pb n="8" facs="tcp:48296:12"/>
+this earth on which we live, is nothing elſe but a great bubble blown up by the breath of God in the midſt of the air, where it now hangs. It ſparkles with ten thouſand glories; not that they are ſo in themſelves, but onely they ſeem ſo to us tho<g ref="char:EOLhyphen"/>rough the falſe light, by which we look upon them. If we come to graſp it, like a thin filme it breaks, and leaves nothing but wind and diſappointment in our hands: as hiſtories report of the fruits that grow near the dead ſea,<note place="margin">Tacit. hiſt. lib. 5. <hi>Fumum exhilant &amp; fa iſcuat in vagum pul<g ref="char:EOLhyphen"/>verem</hi> So<g ref="char:EOLhyphen"/>lin. Joſeph. An<g ref="char:EOLhyphen"/>tiquit. l. 5. <hi>c.</hi> 5.</note> where once <hi>Sodome</hi> and <hi>Gomorah</hi> ſtood, they ap<g ref="char:EOLhyphen"/>pear very fair and beautifull to the eye, but if they be cruſht, <hi>in cinerem vaneſcunt,</hi> turn ſtraight to ſmoak and aſhes.</p>
+            <p>The Subject, which I have pro<g ref="char:EOLhyphen"/>pounded to diſcourſe of, is this
+<pb n="9" facs="tcp:48296:12"/>
+Vanity of the world, and of all things here below; that being hereof convinced, we may de<g ref="char:EOLhyphen"/>ſiſt our vain purſuit of vain ob<g ref="char:EOLhyphen"/>jects, and may ſet our affecti<g ref="char:EOLhyphen"/>ons on thoſe things which are above, which are the alone va<g ref="char:EOLhyphen"/>luable, becauſe the only perma<g ref="char:EOLhyphen"/>nent and ſtable good. Whence is it that we are become ſo de<g ref="char:EOLhyphen"/>generate, that we, who have immortal and heaven-born Souls, ſhould ſtake them down to theſe periſhing injoyments? Whence is it, that we, who ſhould ſoar aloft unto God, and were to that end fitted with the fleet wings of Meditation and affections, to cut through the Heavens in an inſtant, and to appear there before the Throne of the great God, that we ſhould lye here groveling in
+<pb n="10" facs="tcp:48296:13"/>
+the thick clay and muck of this world, as if the Serpents curſe were become ours, <hi>to creep up<g ref="char:EOLhyphen"/>on our bellies,</hi>
+               <note place="margin">
+                  <hi>Gen.</hi> 3.14</note> 
+               <hi>and to lick up the duſt of the earth?</hi> Do we not ſhamefully degrade our ſelves, when we ſtoop to admire, what is ſo vaſtely below us, and bar<g ref="char:EOLhyphen"/>ter away our pretious Souls, Souls more worth than ten thouſand worlds, onely to gain ſome ſmall part of one? Cer<g ref="char:EOLhyphen"/>tainly the God of this world hath blinded mens eyes, and caſt a ſtrange miſt before them, that they cannot diſcern, what is moſt evident and obvious, even the inſtability and vanity, of all ſublunary enjoyments. That I may therefore contri<g ref="char:EOLhyphen"/>bute ſomewhat to ſcatter this miſt, I ſhall endeavour to re<g ref="char:EOLhyphen"/>preſent to you the native and
+<pb n="11" facs="tcp:48296:13"/>
+genuine Vanity that is in all earthly things, free from that deceitful varniſh, which the Devil uſually puts upon them; and ſo to deform, and wound that great Sorcerer, that his charms may have no more power to prevail over you.</p>
+            <p>Now, that we may rightly proceed in this, I ſhall premiſe theſe two or three things.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="I"/>
+               <hi>Firſt,</hi> There is nothing in the world vain in reſpect of its natural being. Whatſoever God hath made is, in its kind good. And ſo the great Creator pronounced of them, when he took a ſurvey of all the works of his hands. Gen. 1.31. <hi>God ſaw every thing, that he had made, and behold it was very good.</hi> There is a moſt harmo<g ref="char:EOLhyphen"/>nious
+<pb n="12" facs="tcp:48296:14"/>
+order, and beauty in all the Creation, and every part of it. And therefore <hi>Solomon</hi> muſt not be here ſo interpre<g ref="char:EOLhyphen"/>ted, as if he diſparaged the works of God in pronouncing them all <hi>Vanity.</hi> Certainly he doth not libell his Creator, nor upraid him as though he had filled the world onely with vain toyes and trifles. If we regard the wonderful artifice and wiſdom, that ſhines forth in the frame of nature, we can<g ref="char:EOLhyphen"/>not have ſo unworthy a thought either of the world it ſelf, or of God, who made it.</p>
+            <p>Veiw the Sun (next unto <note n="*" place="margin">
+                  <hi>Jam.</hi> 1 17.</note> God) the great <hi>Father of lights.</hi> Veiw the numerous aſſembly of the Starres: ob<g ref="char:EOLhyphen"/>ſerve their Influences, their Courſes, and Meaſures. Is it
+<pb n="13" facs="tcp:48296:14"/>
+a vain or impertinent thing, to ſpread forth the Heavens, and to beat out a Path for every one of theſe to walk in! The Air, that thin and ſubtil Vail that God hath ſpread over the face of Nature; the Earth that God hath pois'd in the midſt of the Air, and the whole Uni<g ref="char:EOLhyphen"/>verſe in the midſt of a vaſt and boundleſs Nothing: The great Sea, whoſe proud waves God binds in with a girdle of ſand; and checks its rage by a body almoſt as unſetled and roling as it ſelf: The various kinds of Creatures that God governs by a wonderful <hi>Aeconomy;</hi> the great family of brute Beaſts, which God brings up and edu<g ref="char:EOLhyphen"/>cates without diſorder; but eſpecially Man, the Lord and Chief of the World, that knot
+<pb n="14" facs="tcp:48296:15"/>
+that God hath tyed between Heaven and Earth, that ſacred band of Time with Eternity: If we conſider the frame and compoſure of all theſe things in themſelves, or their uſeful<g ref="char:EOLhyphen"/>neſs and ſubſerviency unto us, we ſhall be ſo far from branding them with Vanity, that unleſs our contemplations lead us from natural things to the great God who formed them, we might rather fear leſt their beauty and excellency ſhould inviegle us, as it did the Hea<g ref="char:EOLhyphen"/>then, to look no farther for a Deity, but Worſhip them as Gods.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="II"/>
+               <hi>Secondly,</hi> There is nothing vain in reſpect of God the Creator. He makes his ends out of all: for they all glorifie him according to their ſeveral
+<pb n="15" facs="tcp:48296:15"/>
+ranks and orders; and to ra<g ref="char:EOLhyphen"/>tional and conſiderate men, are moſt evident Demonſtrations, of his infinite Being, Wiſdom,<note n="a" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Plut. de pla<g ref="char:EOLhyphen"/>citis philos. <hi>c. 6.</hi>
+               </note> and Power. In which ſence the Apoſtle tells us, <hi>Rom.</hi> 1.20. <hi>The inviſible things of God are clearly ſeen, being understood by the things which are made, even his Eternal Power and Godhead.</hi> God hath compoſed two Books, by the diligent ſtudy of which we may attain to the knowledg of Himſelf; the Book of the Creatures, and the Book of the Scriptures. The Book of the Creatures is writ<g ref="char:EOLhyphen"/>ten in thoſe great letters of Heaven and Earth, the Air and Sea, and by theſe we may ſpell out ſomewhat of God. He made them for our inſtruction, as well as for our ſervice; the
+<pb n="16" facs="tcp:48296:16"/>
+leaſt and vileſt of them read us lectures of his glorious At<g ref="char:EOLhyphen"/>tributes; nor is it any abſurdi<g ref="char:EOLhyphen"/>ty, to ſay, that as they are all the Works of his Mouth, ſo they are all the Words of his Hand. Indeed this knowledg that the creatures give us of the Creator, cannot ſuffice to make us happy, though it may be ſufficient to make us <note n="a" place="margin">
+                  <hi>Rom.</hi> 1.20, 21.</note> inexcu<g ref="char:EOLhyphen"/>ſable. We could never have collected from them thoſe my<g ref="char:EOLhyphen"/>ſterious diſcoveries of God, which the Scriptures exhibit, and which are ſo neceſſary to our eternal bliſs. For what ſignature is there ſtamp't upon any of the Creatures of a Tri<g ref="char:EOLhyphen"/>nity in Unity; of the eternal Generation, or temporal In<g ref="char:EOLhyphen"/>carnation of the Son of God? What Creature could have in<g ref="char:EOLhyphen"/>formed
+<pb n="17" facs="tcp:48296:16"/>
+us of our firſt fall, and guilt contracted by it? Or where can we find the Copy of the Covenant of Works, or of Grace printed upon any of the Creatures? All the great ſages of the world, though they were Natures Secretaries, and ran<g ref="char:EOLhyphen"/>ſackt its abſtruſeſt ſecrets, yet all their learning and knowledg could never diſcover that ſacred myſtery of a crucified Saviour. Theſe are truths which Nature and Reaſon are ſo far from find<g ref="char:EOLhyphen"/>ing out that they can ſcare <note n="b" place="margin">1 Cor. 1.14.</note> re<g ref="char:EOLhyphen"/>ceive them when diſcovered. And therefore God hath mani<g ref="char:EOLhyphen"/>feſted them to us by the Light and Revelation of the Holy Scriptures. But yet ſo much of God as belongs to thoſe two great Titles of Creator and Governor of the World, our
+<pb n="18" facs="tcp:48296:17"/>
+reaſon may collect from created and viſible things, running up their conſequences, till they are all reſolved into the firſt cauſe, and Origine of all.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="III"/>
+               <hi>Thirdly,</hi> Therefore, All the Vanity that is in worldly things is onely in reſpect of the ſin and folly of man. For thoſe things are ſaid to be Vain, which nei<g ref="char:EOLhyphen"/>ther do, nor can, perform what we expect from them. Our great expectation is Happineſs, and our great folly is that we think to obtain it by the enjoy<g ref="char:EOLhyphen"/>ments of this world. This makes men purſue pleaſures, hoard up riches, court honours and preferments, becauſe they look with an overweening con<g ref="char:EOLhyphen"/>ceit on theſe things, as ſuch as can make them truly happy. Whereas to ſeek for happineſs
+<pb n="19" facs="tcp:48296:17"/>
+among theſe worldly things, is but to ſeek the living among the dead; yea, it is but to ſearch for happineſs among thoſe things which are the very root and occaſion of all our miſery. <note n="c" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> Epic. apud Laert. in vi<g ref="char:EOLhyphen"/>tâ Epicuri.</note> They are all of them leaky and broken Ciſterns and cannot hold this living wa<g ref="char:EOLhyphen"/>ter. This is it which makes them charged with Vanity, be<g ref="char:EOLhyphen"/>cauſe in our perverted phancy, we look upon them as ſtable, permanent, and ſatisfactory, fix them as our journeys end, which ought onely to be uſed by us in our paſſage, and ex<g ref="char:EOLhyphen"/>pect much more from them than they can yield: And ſo indeed the Vanity is not ſo much theirs as ours.</p>
+            <p>There are ſome things (as <note n="d" place="margin">Aug. doct. Chriſt. l. <hi>1.</hi> c. <hi>3</hi>
+               </note> S. <hi>Austin</hi> and the <note n="e" place="margin">
+                  <hi>Lomb.</hi> l. 1. d. 1 <hi>Aquia.</hi> 1 12. q 11. 16 <hi>Du<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>and.</hi> l. 1 d 1 q 4 <hi>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rim.</hi> d. 1. 4 3. <hi>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rt</hi> 2. <hi>Altiſs.</hi> l 3 <hi>tract.</hi> 10</note> 
+               <hi>Schools</hi> from
+<pb n="20" facs="tcp:48296:18"/>
+him do well diſtinguiſh) which muſt be onely <hi>enjoyed,</hi> other things what muſt be onely <hi>uſed.</hi> To <note n="f" place="margin">Frui eſt a<g ref="char:EOLhyphen"/>more alicui rei inhaetere propter ſcip<g ref="char:EOLhyphen"/>ſam. Aug. doct. Chriſt. <hi>l. 1. c. 4.</hi>
+               </note> enjoy, is to cleave to an object by love for its own ſake: And this belongs onely to God. What we <note n="g" place="margin">Uti autem, quod in u<g ref="char:EOLhyphen"/>ſum venerit ad id quod <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s, obti<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eadum re<g ref="char:EOLhyphen"/>ferre. Id. ibid.</note> uſe, we re<g ref="char:EOLhyphen"/>fer to the obtaining of what we deſire to enjoy: And this belongs to the Creatures. So that we ought to <note n="h" place="margin">Utendum eſt hoc mu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>do, non fru<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>adum, ut inviſibilia Dei per ea quae ſact<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſunt, intell<g ref="char:EOLhyphen"/>g<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ue, hoc eſt ut de tem<g ref="char:EOLhyphen"/>poral h<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ae <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> capi<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>tur, A<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>g, b l.</note> uſe the crea<g ref="char:EOLhyphen"/>tures, that we may arrive at the Creator: We may ſerve our ſelves of them, but we muſt alone enjoy him.</p>
+            <p>Now that which makes the whole world become Vanity, is when we break this order of uſe and fruition; when we ſet up any particular created good as our end and happineſs, which ought onely to be uſed as a means to attain it. All things
+<pb n="21" facs="tcp:48296:18"/>
+in the world are in themſelves good, but when we propound them as the greateſt and high<g ref="char:EOLhyphen"/>eſt good that we expect ſatis<g ref="char:EOLhyphen"/>faction from, this turns them all into Vanity, and ſo every thing beſides God, becomes nothing.</p>
+            <p>And thus we have a brief account whence proceeds this Vanity of the World, not from the nature of things, but from thoſe vain hopes and expectati<g ref="char:EOLhyphen"/>ons we build upon them for that happineſs which they can<g ref="char:EOLhyphen"/>not afford.</p>
+            <p>It remains therefore to diſ<g ref="char:EOLhyphen"/>play before you this Vanity of the World, in ſome more re<g ref="char:EOLhyphen"/>markable particulars: Where<g ref="char:EOLhyphen"/>of I have collected theſe fol<g ref="char:EOLhyphen"/>lowing.</p>
+            <p>
+               <pb n="22" facs="tcp:48296:19"/>Firſt, The Vanity of the World appears in this, that all its glory and ſplendor depends merely upon opinion and phan<g ref="char:EOLunhyphen"/>cy. It is not ſo much what things are, as what we account them, that makes them good or evil: And what can be vain<g ref="char:EOLhyphen"/>er than that which borrows its worth from ſo vain and fickle a thing as our eſtimation? And therefore we find the things of the world rated diverſly,<note place="margin">Quantum a<g ref="char:EOLhyphen"/>pud nos in<g ref="char:EOLhyphen"/>dicis marg<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>ritis pretium eſt, tantum apud Indos in curalia. Nam<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> iſta perſuaſione gentium con<g ref="char:EOLhyphen"/>ſtant. Plia. <hi>lib. 32.</hi> de Gen. Ben<g ref="char:EOLhyphen"/>zoai del mundo nuo<g ref="char:EOLhyphen"/>vo, <hi>lib. 1.</hi>
+               </note> ac<g ref="char:EOLhyphen"/>cording to the eſteem that men have of them. What were Gold and Silver, had not mens phancy ſtampt upon them an excellency far beyond their na<g ref="char:EOLhyphen"/>tural uſefulneſs? This great Idol of the world, was of no value among thoſe barbarous Nations, where abundance made it vile. They preferred
+<pb n="23" facs="tcp:48296:19"/>
+Glaſs and Beads before it, and made that their treaſure, which we make our ſcorn. They deſpiſe our riches, and we theirs; and true reaſon will tell us that both the one and the other are in themſelves alike deſpicable, and it is onely phancy that puts ſuch an im<g ref="char:EOLhyphen"/>modeſt and extravagant price upon them, far above their natural worth. Should the whole world conſpire together to depoſe Gold and Silver from that ſoveraignty they have uſurped over us, they might for ever lie hid in the bowels of the Earth, ere their true uſe<g ref="char:EOLhyphen"/>fulneſs would entice any to the pains and hazard of digging them out into the light. Indeed the whole uſe of what we ſo much dote upon is meerly
+<pb n="24" facs="tcp:48296:20"/>
+phantaſtical, and to make our ſelves needy, we have invented an artificial kind of riches, which are no more neceſſary to the ſervice of ſober Nature, than Jewels and Bracelets were to that Plane-tree, which <note n="a" place="margin">
+                  <hi>Aelian.</hi> l. 2. c. 14.</note> 
+               <hi>Xerxes</hi> ſo ridiculous adorned. And although we eagerly pur<g ref="char:EOLhyphen"/>ſue theſe things, and count our ſelves poor and indigent with<g ref="char:EOLhyphen"/>out them; yet poſſibly right reaſon will dictate, that they are no more needful to us, than to bruit or ſenſleſs Creatures; and that it would be altogether as ridiculous for a man to be deckt with them, as for a Beaſt or Plant, were it but as un<g ref="char:EOLhyphen"/>common. Theſe pretious tri<g ref="char:EOLhyphen"/>fles when they are hung about us, make no more either to the warmth or defence of the
+<pb n="25" facs="tcp:48296:20"/>
+Body, than if they were hung upon a tree they could make its leaves more verdant, or its ſhade more refreſhing. <note n="b" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> L<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>cian. Cynicus.</note> Doth any man lie the ſofter, becauſe his bed poſts are gilt? Doth his Meat and Drink reliſh the better, becauſe ſerv'd up in Gold? Is his Houſe more convenient, becauſe better carv'd or painted? Or are his Cloaths more fit, becauſe more faſhionable than anothers? And if they are not neceſſary to theſe natural uſes, all that is left them is but phancy and opinion. Indeed mankind co<g ref="char:EOLhyphen"/>zen themſelves by compact, and by ſetting a value upon things that are rare, have made
+<pb n="26" facs="tcp:48296:21"/>
+many think themſelves poor, whereas God and Nature made all equally wealthy, had they not artificially impoveriſht themſelves. It is nothing but conceit that makes the differ<g ref="char:EOLhyphen"/>ence between the richeſt and the meaneſt, if both enjoy ne<g ref="char:EOLhyphen"/>ceſſaries. For what are all their ſuperfluous riches, but a load that mens covetouſneſs lays upon them? They are but like <note n="c" place="margin">—Ut ſi Reticul<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m panis, verta<g ref="char:EOLhyphen"/>les inter, e<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>uſto Fortè vehas hume<g ref="char:EOLhyphen"/>ro, nihilo plus accipias quam. Qui nil po<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tari<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. Hor. ſat. <hi>1.</hi>
+               </note> Roman ſlaves that were wont to carry heavy burdens of bread upon their backs, whereof others eat as large a ſhare as they. Whatſoever is more than barely to ſatisfie the cravings of Nature, is of no other uſe but onely to <note n="d" place="margin">Eccleſ. 5.11.</note> look upon. Thy Lands, thy Houſes, and fair Eſtate are but Pictures of things. The pooreſt that
+<pb n="27" facs="tcp:48296:21"/>
+ſees them enjoys as much of them as thy ſelf: Yea, and if men could be contented with reaſon, all that they behold with their eyes, is as much theirs as it is the owners.</p>
+            <p>And indeed if we ſtrip all theſe admired nothings to their naked principles, we ſhall find them as baſe and ſordid as the meaneſt of thoſe things which we ſpurn and deſpiſe; onely Art or Nature put new ſhapes upon them, and phancy a price upon thoſe ſhapes. <note n="a" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> M. Anto. de ſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ioſa <hi>l. 6. S. 10.</hi> Edit. Cas. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Id. <hi>l. 9. S. 30. 6.</hi>
+               </note> What are Gold and Silver, but divercyfied Earth, hard and ſhining Clay?
+<pb n="28" facs="tcp:48296:22"/>
+The very place where they are bred, the entrails of the Earth, upbraids us for accounting them pretious. The beſt and richeſt perfumes, what are they but the clammy ſweat of Trees, or the mucous froth of Beaſts? The ſofter Silks are but the Excrement of a vile Worm. The moſt racy and generous Wines, are nothing elſe but puddle water ſtrain'd through a Vine. Our choiceſt delicates are but dirt, cookt and ſerv'd up to us in various forms. The very ſame things which we contemn under one ſhape, we admire in another; and with this, Phancy and Cu<g ref="char:EOLhyphen"/>ſtome have conſpired together to cheat us.</p>
+            <p>Think, O worldling! when thou caſteſt thy greedy eyes
+<pb n="29" facs="tcp:48296:22"/>
+upon thy riches, think, here are bags that onely phancy hath fil'd with treaſure, which elſe were fil'd with dirt. Here are trifles, that onely phancy hath called Jewels, which elſe were no better than common peebles. And ſhall I lay the foundation of my content and happineſs upon a phancy, a thing more light and wavering than the very Air?</p>
+            <p>Nay, conſider, That a di<g ref="char:EOLhyphen"/>ſtemper'd phancy can eaſily al<g ref="char:EOLhyphen"/>ter a mans condition, and put what ſhape it pleaſeth upon it. If a black and ſullen Melancho<g ref="char:EOLhyphen"/>ly ceiſeth the ſpirits, it will make him complain of poverty in the midſt of his abundance of pain and ſickneſs, in the midſt of his health &amp; ſtrength. 'Tis true, theſe are but the
+<pb n="30" facs="tcp:48296:23"/>
+effects of a diſtorted phancy; but though his ſickneſs and poverty be not real, yet the torment of them is. It is all one, as to our diſquiet whether we be indeed unhappy, or one<g ref="char:EOLhyphen"/>ly <note n="b" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>Epictet. En<g ref="char:EOLhyphen"/>chir.</hi> c. 10. <hi>&amp; diſſert.</hi> l. 3. c. 19.</note> imagine our ſelves ſo.</p>
+            <p>Again, If the phancy be more merrily perverted, ſtreight they are nothing leſs than Kings, or Emperors, in their own conceit. A ſtraw is as majeſtick as a Scepter, they will ſpeak of their Rags as magnificently, as if they were Robes: And look upon all that come near them as their ſubjects or ſervants. They make every ſtone a Jem, every cot<g ref="char:EOLhyphen"/>tage a Pallace; all they ſee is their own, and all their own is moſt excellent. Now what think you, are theſe things
+<pb n="31" facs="tcp:48296:23"/>
+vain, or no? I doubt not but you will conclude them moſt extremly vain; and yet they ſerve their turns as well, and bring them in as much ſolace and contentment, as if they were really what they imagi<g ref="char:EOLhyphen"/>ned them. Thus <note n="a" place="margin">
+                  <hi>Aelian.</hi> l. 4. c. 25</note> 
+               <hi>Thraſyllus</hi> noted down all the Ships that arrived at the Port of <hi>Athens,</hi> thinking them and their Mer<g ref="char:EOLhyphen"/>chandize to be all his own. And when cured of that plea<g ref="char:EOLhyphen"/>ſant madneſs, <note n="b" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Ia. ibid.</note> confeſt, that he never in his whole life en<g ref="char:EOLhyphen"/>joyed ſo much content, as in that conceited wealth thoſe Ships brought him. And in<g ref="char:EOLhyphen"/>deed for my part, I know not whether theſe things are more vain in the phancy, or in the reality. Such is the exceeding Vanity of all things in the
+<pb n="32" facs="tcp:48296:24"/>
+World, that were it not for the Eternal concernments of the Soul, which cannot be ſo well regarded under a ſuſpention or diſtraction of Reaſon, I ſhould make no difficulty to account and prove them the happieſt men on Earth.</p>
+            <p>If then there be ſo great a power in phancy, how vain muſt all thoſe things be which you purſue with eagerneſs and impatience, ſince a vain phan<g ref="char:EOLhyphen"/>cy without them, can give you as much ſatisfaction,; as if you enjoyed them all: And a vain phancy can, on the other hand, in the greateſt abundance of them, make your lives as wea<g ref="char:EOLhyphen"/>riſome and vexatious, as if you enjoyed nothing. That is the firſt Demonſtration.</p>
+            <p>Secondly, The Vanity of
+<pb n="33" facs="tcp:48296:24"/>
+the World appears in its de<g ref="char:EOLhyphen"/>ceitfulneſs and treachery. It is not onely Vanity, but a lying Vanity, and betrays both our hopes, and our ſouls.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> It betrays our hopes, and leaves us nothing but diſap<g ref="char:EOLhyphen"/>pointment, when it promiſeth ſatisfaction and happineſs. What ſtrange confidences do we build upon the falſe flatte<g ref="char:EOLhyphen"/>ries of the world? In our pro<g ref="char:EOLhyphen"/>ſperity we ſing a <hi>Requiem</hi> to our ſelves, and are ready to ſay, <hi>Our Mountain is ſo ſtrong,</hi>
+               <note place="margin">Pſal. 30.6, 7.</note> 
+               <hi>that it ſhall never be moved:</hi> But with<g ref="char:EOLhyphen"/>in a while God hath ſhaken it like that of <hi>Sinai,</hi> and wrapt it about with clouds and thick darkneſs.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> It betrays the ſoul to guilt and eternal condemnation. For uſually the world intangles it
+<pb n="34" facs="tcp:48296:25"/>
+in ſtrong, though ſecret and inſenſible ſnares, and inſinuates into the heart that love of it ſelf, which is inconſiſtent with the love of God. The world is the Devils factor, and drives on the deſigns of Hell. The <hi>Apoſtle</hi> hath told us, 1 <hi>Tim.</hi> 6.9. <hi>They that will be rich, fall into temptation, and a ſnare, and many fooliſh and hurtful luſts, which drown men in deſtruction and perdition.</hi> And becauſe of the ſubſerviency of worldly enjoyments to mens luſts, it is almoſt as impoſſible a thing to moderate our affections to<g ref="char:EOLhyphen"/>wards them, or to bound our appetites and deſires, as it is to aſſwage the thirſt of a Dropſie by drinking, or to keep that ſire from encreaſing into which we are ſtill caſting new fewel.
+<pb n="35" facs="tcp:48296:25"/>
+And therefore our <hi>Saviour</hi> hath pronounced it as <note n="a" place="margin">Luke 18.25.</note> 
+               <hi>Hard for a rich man to enter into Hea<g ref="char:EOLhyphen"/>ven, as for a Camel to go through the eye of a needle.</hi>
+            </p>
+            <p>As <hi>Judas</hi> gave a ſign to the Officers that came with him to apprehend Jeſus, <note n="b" place="margin">Mat 26.48.</note> 
+               <hi>Whomſoe<g ref="char:EOLhyphen"/>ver I ſhall kiſs, the ſame is he, hold him fast:</hi> The ſame ſign doth the World give the De<g ref="char:EOLhyphen"/>vil. Whomſoever I ſhall careſs and favour, whomſoe<g ref="char:EOLhyphen"/>ver I ſhall heap honour and riches on, whomſoever I ſhall embrace and kiſs, the ſame is he, hold him faſt. Such a darling of the World, is uſu<g ref="char:EOLhyphen"/>ally faſt bound in the ſilken bands of Voluptuouſneſs, and conſigned over to be faſt bound in chains of maſſy dark<g ref="char:EOLhyphen"/>neſs.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/>
+               <pb n="36" facs="tcp:48296:26"/>As all things in the world are lying Vanities, ſo are they all vexatious. They are infa<g ref="char:EOLhyphen"/>mous to a Proverb, <hi>Uncertain comforts, but moſt certain croſſes.</hi> And therefore the wiſe man concludes them all to be not on<g ref="char:EOLhyphen"/>ly <hi>Vanity, but Vexation of ſpirit.</hi>
+            </p>
+            <p>There is a fourfold Vexati<g ref="char:EOLhyphen"/>ouſneſs in all worldly things.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> There is a great deal of tur<g ref="char:EOLhyphen"/>moil and trouble in getting them; nothing can be acqui<g ref="char:EOLhyphen"/>red without it. The ſweat of <hi>Adams</hi> brows hath ſtream'd down along upon ours, and the curſe together with it, <note n="c" place="margin">Gen. 3.19.</note> that in ſorrow we ſhould eat of that which Toil and Labour hath provided for us. Men riſe ear<g ref="char:EOLhyphen"/>ly, and go to bed late, and eat the Bread of carefulneſs, and ſuch is either their curſe,
+<pb n="37" facs="tcp:48296:26"/>
+or their folly, that they make their lives uncomfortable, onely to get the comforts of life.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Whether they get them, or no, yet ſtill they are diſap<g ref="char:EOLhyphen"/>pointed in their hopes. <note n="d" place="margin">Ex bis tri<g ref="char:EOLhyphen"/>ſtitia ſequi<g ref="char:EOLhyphen"/>tur, ſi aut non ſucceſſit, aut ſucceſſus pudet Sen<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>c. de tranquil. <hi>c. 11.</hi>
+               </note> If they cannot compaſs their de<g ref="char:EOLhyphen"/>ſigns, then they are tormented, becauſe they fall ſhort of what they laboured for; if they do compaſs them, yet ſtill they are tormented, becauſe what they laboured for, falls ſhort of what they expected from it. The truth is, the World is much better in ſhew than ſub<g ref="char:EOLhyphen"/>ſtance: And thoſe very things we admire before we enjoy them, yet afterward, we find much leſs in them than we ex<g ref="char:EOLhyphen"/>pected. As he that ſees a fal<g ref="char:EOLhyphen"/>ling Star ſhoot through the
+<pb n="38" facs="tcp:48296:27"/>
+Air, and draw after it a long train of light, runs to the place, and thinking to get ſome bright and glittering thing, catches up nothing but a filthy jelly; ſuch is the diſappoint<g ref="char:EOLhyphen"/>ment we find in our purſuit after the enjoyments of this world: They make a glorious ſhew at a diſtance, but when we come near them, we find our hopes deluded, and no<g ref="char:EOLhyphen"/>thing upon the place but a vile ſlime.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> Thirdly, They are all vexa<g ref="char:EOLhyphen"/>tion while we enjoy them. Be it what it will that we poſſeſs of the world, it is but by fits at moſt, that we take any great pleaſure in it: And then, what between cares and deſigns to ſecure the continuance of it, and fears of loſing it, the com<g ref="char:EOLhyphen"/>fort
+<pb n="39" facs="tcp:48296:27"/>
+of enjoying it is wholly ſwallowed up. <note n="a" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Plut. de Tranquil.</note> For ſtrong affections begeting ſtrong fears, do always leſſen the delight of preſent enjoyments. This is the unhappineſs of all things in the world, that if we ſet any price and value upon them, we loſe much of the ſweetneſs of them, by fearing to loſe them.</p>
+            <p>Fourthly, They are all vexa<g ref="char:EOLhyphen"/>tious, as in their enjoyment, ſo eſpecially in their loſs. Whatever we ſet our hearts upon, we may aſſure our ſelves, and experience will teach it us, that the pleaſure of poſſeſſing it, will not near countervail the bitterneſs of loſing it. And as if God had on purpoſe ſo ordained it, to take off our hearts from the world, the
+<pb n="40" facs="tcp:48296:28"/>
+better we eſteem any thing, the more Vanity and Vexation ſhall we find in it; for the more will our care and perplexity in keeping it, and the more our grief and torment in loſing it be encreaſed. That's a third Demonſtration.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="IV"/>
+               <hi>Fourthly,</hi> The Vanity of the world appears in this, that a little croſs will embitter great comforts. One <hi>dead Flie</hi> is enough to corrupt a whole <hi>Box</hi> of the worlds moſt fragrant <hi>Oyntment.</hi> How much will onely the aking of a tooth, a fit of the Stone or Gout deaden and diſhearten us, to all the joys and pleaſures of Life? Certainly, the world muſt needs be vain, that cannot bear out the brunt of a little pain or ſickneſs. The leaſt croſs acci<g ref="char:EOLhyphen"/>dent
+<pb n="41" facs="tcp:48296:28"/>
+is enough to diſcompoſe all our delights. And indeed there are ſo many ingredients required to make up worldly Felicity, <note n="a" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>E.</hi> l. 1 c. 8. &amp; l <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>0. c. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> Riches, Health, Friends, Honor, good Name, and the like, that if any of theſe be wanting, the whole compoſition is ſpoiled; and we ſhall take advantage againſt our ſelves to conclude we are miſerable. For ſuch is the peeviſhneſs of our nature, that if we have not all we would, we take no content in any thing we have. And beſides, we are apt <note n="b" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> P<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rch. de tr<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>.</note> to ſlide off from the
+<pb n="42" facs="tcp:48296:29"/>
+ſmoother part of our lives, as Flies from glaſs, and to ſtick onely on the rougher paſſages: For neither is Senſe capable to be ſo much or ſo long affected with the impreſſions of plea<g ref="char:EOLhyphen"/>ſure, as of pain (ſince never could there yet be any delights invented as piercing, as there are many torments) nor yet is our buſie remembrance ſo offi<g ref="char:EOLhyphen"/>cious in calling back the pleaſant paſſages of our days to our re<g ref="char:EOLhyphen"/>view, as thoſe that have been more gloomy and dolorous. And though it be our ſin to lock more upon the Croſſes we find, than the Comforts we enjoy, yet here we may like<g ref="char:EOLhyphen"/>wiſe ſee how vain a thing it is for us to expect happineſs and contentment from the world, whoſe Croſſes as they are
+<pb n="43" facs="tcp:48296:29"/>
+more, ſo are they more con<g ref="char:EOLhyphen"/>ſiderable than its Comforts.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="5"/> Fifthly, conſider, The longer we enjoy any worldly thing, the more flat and inſipid doth it grow: We are ſoon at the bottom, and find nothing but dregs there. In all the plea<g ref="char:EOLhyphen"/>ſures of life, either our Spirits ſink and fall under the conti<g ref="char:EOLhyphen"/>nuance of them, as not able to bear a conſtant tenſion and emotion; or the delight con<g ref="char:EOLhyphen"/>ſiſts merely in the novelty and variety of the objects, which when we are made more fami<g ref="char:EOLhyphen"/>liar with are but dull, becauſe ordinary: And ſo they either tire our appetites, or deceive our hopes. And therefore the moſt artificial Voluptuaries have always allowed them<g ref="char:EOLhyphen"/>ſelves an intermiſſion in their
+<pb n="44" facs="tcp:48296:30"/>
+pleaſures, to recruit nature, and ſharpen their ſenſual de<g ref="char:EOLhyphen"/>ſires, without which they would but cloy and ſurfet, and inſtead of pleaſures, prove onely a waſt and oppreſſion to the ſpirits. <note n="c" place="margin">Certos ha<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>b<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ates ip<g ref="char:EOLhyphen"/>ſe magiſter voluptatis <hi>Epicurus,</hi> quibus ma<g ref="char:EOLhyphen"/>lignè f<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mem extingueret. <hi>Sen. Ep. 18</hi> Ep. ad Me<g ref="char:EOLhyphen"/>noeceum apud Diog. Lacit in vitâ <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>Epicurus</hi> himſelf, the great Maſter and Servant of pleaſure, who made it the higheſt good and chiefeſt hap<g ref="char:EOLhyphen"/>pineſs of man, ſet himſelf certain dayes of abſtinence in courſe, wherein he would but niggardly ſatisfie his ſtomach; well know<g ref="char:EOLhyphen"/>ing that the pleaſure of gluttony, could never be ſo much chanc'd as by an intervall of hunger.</p>
+            <p>For what is a furniſht Table to him whoſe conſtant meals overtake one another, but one<g ref="char:EOLhyphen"/>ly the heaping of food upon crudities and indigeſtion? What are titles of Honour to
+<pb n="45" facs="tcp:48296:30"/>
+a perſon born noble? They ſignifie no more to him, than it doth to another man, when he hears himſelf called by his ordinary name. What is reſpect and honour to a man long ac<g ref="char:EOLhyphen"/>cuſtomed to it? It brings him no great content when he hath it, but torments him when he fails of it. Give theſe things to thoſe that are unacquainted with them, if you would have them valued. Bring a poor man to a table of Delicates; inveſt an ignoble perſon with Honours and Dignities; give reſpect to a deſpiſed per<g ref="char:EOLhyphen"/>ſon, and for the preſent you bleſs them. But time and cu<g ref="char:EOLhyphen"/>ſtome will wear off this con<g ref="char:EOLhyphen"/>tent: And the <note n="b" place="margin">—Sunt talisiqun<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aelia vitae Magna. Vo<g ref="char:EOLhyphen"/>luptates com<g ref="char:EOLhyphen"/>m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ndat rari<g ref="char:EOLhyphen"/>or uſus. Juv. Sa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. <hi>11.</hi>
+               </note> tediouſneſs even of ſuch a life as this will make them willing at leaſt for their divertiſement and recreation,
+<pb n="46" facs="tcp:48296:31"/>
+to <note n="c" place="margin">Non exiſti<g ref="char:EOLhyphen"/>m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s me duce<g ref="char:EOLhyphen"/>re te ad mo<g ref="char:EOLhyphen"/>dices canas &amp; paup<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ram cell<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s, &amp; quicquid ali<g ref="char:EOLhyphen"/>ud eſt per quod laxu<g ref="char:EOLhyphen"/>riae, divitia<g ref="char:EOLhyphen"/>rum taedio ludi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. S<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n. Ep. <hi>1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</hi>
+               </note> retire to their homely Cells and Station. For as it is with thoſe that are accuſtomed to ſtrong perfumes, they them<g ref="char:EOLhyphen"/>ſelves cannot ſcent thoſe o<g ref="char:EOLhyphen"/>dours, which to others that uſe them not, are moſt ſweet and fragrant: So it fares with us in the long continuance of worldly enjoyments; our ſenſes are ſo ſtufft and even ſuf<g ref="char:EOLhyphen"/>focated with them, that we cannot perceive them; and un<g ref="char:EOLhyphen"/>leſs we purchaſe pleaſures by alternate ſorrow, they are but loſt upon us. Now how vain muſt the world needs be, whoſe comforts are not valuable while we have them, but while we have them not? And how vain are thoſe joys, for which we muſt pay down as much grief, as the joys themſelves
+<pb n="47" facs="tcp:48296:31"/>
+are worth? So that upon bal<g ref="char:EOLhyphen"/>lancing the accompt there re<g ref="char:EOLhyphen"/>mains nothing to us: And it had been altogether as good to have enjoyed nothing.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="6"/> Again, Conſider, all the pleaſure of the world, is no<g ref="char:EOLhyphen"/>thing elſe but a tedious repeti<g ref="char:EOLhyphen"/>tion of the ſame things. Our life conſiſts in a <note n="c" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>A<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>
+                  </hi> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> l 2. S. 12.</note> round of Actions, and what can be dul<g ref="char:EOLhyphen"/>ler than ſtill to be doing the ſame things over and over a<g ref="char:EOLhyphen"/>gain? Ask the moſt frollick Gallant, whoſe onely ſtudy it is how he may paſs his time merrily, and live happily: What account can he give of his pleaſures, but that from his Bed, he riſeth to his Table, from his Table to his Sports, from them he tumbles into his Bed again? This is the moſt
+<pb n="48" facs="tcp:48296:32"/>
+gentile and faſhionable life. And are theſe the great joyes that a world ſo prized and ſo admired can afford? One half of his pleaſant life he ſpends in ſleep, a dull ſtate, which we may rather reckon to death, than life. The other half he ſpends in clogging his appetite, and tiring his body, and then to ſleep again. What gene<g ref="char:EOLhyphen"/>rous and noble deſignes are theſe! Fit for high ſpirits and high births, while the contem<g ref="char:EOLhyphen"/>ptible Peaſants are left to do the drudgery of the world, and to be the onely ſerviceable men in it. Nay rather what a pittiful Circle is this, ſtill to be doing the ſame things, and things which we have before ſearcht and often found all that is in them. So that even a
+<pb n="49" facs="tcp:48296:32"/>
+Heathen <note n="a" place="margin">Cogita quamdiu eadem faci<g ref="char:EOLhyphen"/>as. Cibus, ſomaus, li<g ref="char:EOLhyphen"/>bido. Mori velle, non tantum pru<g ref="char:EOLhyphen"/>dens &amp; ſor<g ref="char:EOLhyphen"/>tis aut mi<g ref="char:EOLhyphen"/>ſer, ſed eti<g ref="char:EOLhyphen"/>am faſtidio<g ref="char:EOLhyphen"/>ſus poteſt. Sen. Ep. <hi>77.</hi>
+               </note> could ſay, that not onely a valiant, or a miſerable man might deſire to die, but a nice and delicate man, as diſ<g ref="char:EOLhyphen"/>daining the irkſome repetition of the ſame things.</p>
+            <p>
+               <hi>Seventhly,</hi> The Vanity of the World appears in this, that it can ſtand us in no ſtead, then when we have the greateſt need of ſupport and comfort. There be two ſeaſons eſpecially, in which the ſoul wants relief and comfort, and they are in trou<g ref="char:EOLhyphen"/>ble of Conſcience, and at the hour of death. Now in each of theſe the world ſhews it ſelf to be exceeding vain and uſeleſs.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> Firſt, The World appears to be vain, when we are under trouble of Conſcience. What choice comforts the ſoul then
+<pb n="50" facs="tcp:48296:33"/>
+ſtands in need of, thoſe who have felt the ſting and terrours of it, can beſt tell. The tor<g ref="char:EOLhyphen"/>ments they then feel, next to thoſe of the damned, are the moſt intolerable, and the moſt unutterable. God ſets them up as his mark, and ſhoots his Arrows dipt in flaming poy<g ref="char:EOLhyphen"/>ſon into the very midſt of their ſouls. He kindles a ſecret fire in them, that conſumes their bones, dries up their marrow, and ſcorches their entrals, and ſuch is the ſpreading rage of it, that oftentimes it ſmoaks out at their mouths in deſpair<g ref="char:EOLhyphen"/>ing outcrys.</p>
+            <p>
+               <hi>The ſpirit of a man,</hi> (ſaith <hi>Solomon, Prov.</hi> 18.14.) <hi>will bear his infirmity;</hi> i. e. The natural chearfulneſs and viva<g ref="char:EOLhyphen"/>city of a mans ſpirit, will in<g ref="char:EOLhyphen"/>able
+<pb n="51" facs="tcp:48296:33"/>
+him to bear up under bo<g ref="char:EOLhyphen"/>dily pains; <hi>but a wounded ſpi<g ref="char:EOLhyphen"/>rit who can bear?</hi> When our Prop it ſelf is broken we muſt needs ſink, &amp; fall under the moſt gloomy apprehenſions that Guilt and Hell can create in a ſoul already ſing'd with thoſe Eternal flames into which with unſpeakable horror it dayly expects to be plunged. Oh! think what exact torture thou muſt needs endure, when God ſhall make deep wounds in thy ſpirit, and let fall great drops of his burning wrath, on that part of thy ſoul that is infi<g ref="char:EOLhyphen"/>nitely more tender and ſenſible than the apple of thine eye. Imagine what ſharp and intol<g ref="char:EOLhyphen"/>erable pains thoſe <hi>Martyrs</hi> ſuſtained, who (as the <hi>Apo<g ref="char:EOLhyphen"/>ſtle</hi> tells us <hi>Heb.</hi> 11.37. <hi>were
+<pb n="52" facs="tcp:48296:34"/>
+ſawn aſunder.</hi> Or ſuppoſe that thou thy ſelf wert now under the tagged teeth of a Saw, drawn to and fro upon the tendreſt parts of thy body, tearing thy fleſh, thy nerves, and ſinews; grating and jar<g ref="char:EOLhyphen"/>ring upon thy very bones: Yet all the extremity of this, is no<g ref="char:EOLhyphen"/>thing to what torments the Conſcience feels, when God cauſeth his Sword to enter in<g ref="char:EOLhyphen"/>to it, to rive it up; when he makes deep and bloody wounds in it, and inſtead of pouring in healing balm, with an hea<g ref="char:EOLhyphen"/>vy hand chafes them with fire and brimſtone.</p>
+            <p>Now in ſuch a time of an<g ref="char:EOLhyphen"/>guiſh and diſtreſs as this, what is there that can relieve the afflicted ſoul? The worldling that heaps up his ill-gotten
+<pb n="53" facs="tcp:48296:34"/>
+treaſures, and wallows in thick clay, when God comes to ranſack his conſcience, and to ſet before him the guilt of his ſins, will then know with terrour and amazement, that there is a Juſtice which Gold and Silver cannot bribe. The voluptuous perſon will no longer reliſh any ſavourineſs in his carnal delights, when once <hi>God</hi> 
+               <note n="a" place="margin">Job. 13.26.</note> 
+               <hi>writes bitter things againſt him.</hi> What is mirth and mu<g ref="char:EOLhyphen"/>ſick to him that can now hear nothing but the ſcreiches of his own conſcience? What is a full cup to him, that can now taſte nothing but the cup of fury and trembling? Little content will the Noble take in his honourable Titles, if all this while his Conſcience call him Reprobate. A Title of
+<pb n="54" facs="tcp:48296:35"/>
+Honour will no more abate the torments of Conſcience, than it doth mitigate <hi>Belzebubs</hi> tor<g ref="char:EOLhyphen"/>ments to be ſtiled Prince of the Devils. All the worlds hony, will not ſerve to allay the invenomed ſtingings of Conſcience. That's a fiery Serpent, a deaf Adder, that will not be charm'd by all the alluring pleaſures of the world. Theſe are vain and imperti<g ref="char:EOLhyphen"/>nent to one whoſe thoughts are wholly poſſeſt with the fear of Wrath and Hell, from which theſe cannot deliver him. When God makes a wound in the ſpirit, the whole world cannot make a Plaiſter broad enough to cover it.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, The world is a vain and uſeleſs thing at the hour of death. Poſſibly, ma<g ref="char:EOLhyphen"/>ny
+<pb n="55" facs="tcp:48296:35"/>
+of us may never conflict with the terrors of Conſcience, nor have that conviction of the worlds Vanity: But yet we muſt all conflict with death, that <hi>King of terrors.</hi> Suppoſe therefore (what muſt certain<g ref="char:EOLhyphen"/>ly once be) that we were now gaſping our laſt, our tongues faltering, our eyeſtrings break<g ref="char:EOLhyphen"/>ing, our limbs quivering, a dead cold and ſtiffneſs inva<g ref="char:EOLhyphen"/>ding us; were our ſouls toſt to and fro upon our expiring breath, and like wrecks at Sea, ſometimes caſt up, and by and by ſuckt back again, what could ſtand us in ſtead, and make our paſſage happy at ſuch a time as this? Now the ſoul re<g ref="char:EOLhyphen"/>quires the ſtrongeſt, the richeſt Cordials. Prepare it one min<g ref="char:EOLhyphen"/>gled of the beſt Ingredients the
+<pb n="56" facs="tcp:48296:36"/>
+whole world can afford. Caſt into the Cup Riches, Honour, Pleaſure, the Quinteſſence of all that is here deſirable, yet alaſs! What is all this world to a dying man who is juſt leaving it?</p>
+            <p>Thy wicked companions, with whom thou haſt laught and fin'd away thy freſheſt years, will in this thy laſt ex<g ref="char:EOLhyphen"/>tremity forſake thee; or if they do attend ſo ſad a ſpecta<g ref="char:EOLhyphen"/>cle, alaſs, What miſerable comforters will they be? They will then prove another bad conſcience to thee, and bring to thy remembrance with hor<g ref="char:EOLhyphen"/>ror the ſins which thou haſt committed by their entice<g ref="char:EOLhyphen"/>ment, or they by thine. Thy mirth and jollity, will then be turned into groans and how<g ref="char:EOLhyphen"/>lings:
+<pb n="57" facs="tcp:48296:36"/>
+All things will ſtare ruthfully upon thee, and when thou calleſt upon them for help,<note place="margin">Non domus &amp; fundus, non ae<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>is a<g ref="char:EOLhyphen"/>cervus &amp; turi, Aegro<g ref="char:EOLhyphen"/>to domini deduxit cor<g ref="char:EOLhyphen"/>pore febris, Non animo curas. Ho<g ref="char:EOLhyphen"/>cat. Ep. <hi>2.</hi>
+               </note> confeſs their impotency to re<g ref="char:EOLhyphen"/>ſcue thee from the gripe of death, and from the doom of Juſtice.</p>
+            <p>Sickneſs is uſually a buſie time with conſcience, and when it is packing up for a remove into the other world, it will be ſure to gather together all the ſins of a mans life, and bind them as an heavy and inſuppor<g ref="char:EOLhyphen"/>table burden upon his ſoul. Can thy ſenſual pleaſures di<g ref="char:EOLhyphen"/>vert thee now? As they have ſerved thee to paſs away the tediouſneſs of time, can they ſerve to paſs away the infinite tediouſneſs of Eternity? Nay, how can it otherwiſe be, but that a mind long ſoak't and
+<pb n="58" facs="tcp:48296:37"/>
+ſoftned by theſe, ſhould be made the more capable of re<g ref="char:EOLhyphen"/>ceiving deep impreſſions of grief, anguiſh, and deſpair?</p>
+            <p>Indeed, while we eagerly purſue any of theſe worldly enjoyments, we are but run<g ref="char:EOLhyphen"/>ning after a ſhadow: And as ſhadows vaniſh, and are ſwal<g ref="char:EOLhyphen"/>lowed up in the greater ſhade of night, ſo when the night of Death ſhall caſt its thick ſhade about us, and wrap us up in deep and ſubſtantial dark<g ref="char:EOLhyphen"/>neſs, all theſe vain ſhadows will then diſappear, and vaniſh quite out of ſight.</p>
+            <p>Now could we have the ſame opinion of the world in the time of our health and proſpe<g ref="char:EOLhyphen"/>rity, as we ſhall certainly have when we lie languiſhing and drawing on to Eternity, we
+<pb n="59" facs="tcp:48296:37"/>
+ſhould be able then with a ge<g ref="char:EOLhyphen"/>nerous ſcorn to live above it, and deſpiſe it. Shall we prize thoſe comforts, which will be none to us, when we have the greateſt need of comfort? Shall we glue our affections to that which either is ſo faithleſs that it will not, or ſo weak that it cannot help us? So vain a thing is it, that it can<g ref="char:EOLhyphen"/>not reſiſt the diſgrace that ſleep, or onely winking doth it. Shut but your eyes, and what becomes of all the pomp and luſtre, the beauty and ſplendour that we ſo much ad<g ref="char:EOLhyphen"/>mire in the world? It all va<g ref="char:EOLhyphen"/>niſheth into darkneſs and no<g ref="char:EOLhyphen"/>thing. Sleep ſnatcheth us from it; and for the time, we have no more enjoyment of it, than if we were dead. Every night
+<pb n="60" facs="tcp:48296:38"/>
+we die in our beds, and yet every day are ſo immerſt in the pleaſures, and buſineſſes of the world, as if we were ne<g ref="char:EOLhyphen"/>ver to die indeed. Since there<g ref="char:EOLhyphen"/>fore we have higher and nobler objects to fix our affections on, let us not laviſh them out upon theſe worldly Vanities, which can at no time prove real com<g ref="char:EOLhyphen"/>forts unto us, and then leaſt of all, when we have moſt need of comfort. That's a ſeventh Demonſtration.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="VIII"/> Again, All things in the World are vain, becauſe they are unſuitable. True indeed, they are ſuited to the neceſſi<g ref="char:EOLhyphen"/>ties of the Body, and ſerve to feed and cloath that; but He is a Beaſt or worſe, that rec<g ref="char:EOLhyphen"/>kons himſelf provided for, when onely his bodily wants
+<pb n="61" facs="tcp:48296:38"/>
+are ſupplied. Have we not all of us precious and immor<g ref="char:EOLhyphen"/>tal ſouls, capable and deſirous of happineſs? Do not theſe crave to be ſatisfied? Do they not deſerve to be heard? Shall our vile bodies which are but duſt and worms-meat, engroſs all our care how to pleaſe and pamper them, and ſhall the neceſſities of our never dying ſouls be neglected? What have you laid up in ſtore for theſe? Alas! That which moſt men buſie themſelves a<g ref="char:EOLhyphen"/>bout, is to heap up temporal riches, <hi>To joyn houſe to houſe,</hi>
+               <note place="margin">Iſa. 5.8.</note> 
+               <hi>and land to land, that they might dwell alone upon the Earth.</hi> But know, thou doſt but give thy ſoul husks and ſwines<g ref="char:EOLhyphen"/>meat, when thou fetteſt the whole world before it.</p>
+            <p>
+               <pb n="62" facs="tcp:48296:39"/>And therefore <hi>our Saviour</hi> juſtly brands the <hi>rich man</hi> in the Goſpel for a <hi>fool,</hi> that when he had ſtuft up his barns with Corn, ſaid to his ſoul, <note n="*" place="margin">Luke 12.19.</note> 
+               <hi>Soul thou hast much Goods laid up for many years.</hi> A fool indeed to meaſure the ſouls goods by the Barn, or by the Buſhel. The very ſame is the folly of moſt men, who think they are in all reſpects well provided for, if they can but ſcrape together a great eſtate, whereas the ſoul can no more live upon theſe things, than the body can upon a thought or noti<g ref="char:EOLhyphen"/>on.</p>
+            <p>There is a threefold unſuita<g ref="char:EOLhyphen"/>bleneſs, between worldly things and the ſoul.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> Firſt, The ſoul is ſpiritual, theſe are droſſie and material.
+<pb n="63" facs="tcp:48296:39"/>
+Of all things belonging to a man his breath is the moſt ſub<g ref="char:EOLhyphen"/>tile, inviſible, and ſpiritual. But now the ſoul is called the <note n="*" place="margin">Gen. 2.7.</note> 
+               <hi>Breath of God,</hi> and therefore muſt needs be ſpiritual in a high degree. And what then hath a ſpiritual ſoul to do with clods of Earth, or acres of Land; with Barns full of Corn, or Bags full of Gold? Theſe are too thick and groſs to correſpond with its refined nature. But rather, bring ſpiritual things to Spiritual. God who is the <note n="*" place="margin">Heb. 12.9.</note> 
+               <hi>Father of Spirits,</hi> his love and favour, an intereſt in him, and communion with him, the conſolations of the Holy Ghoſt, the actings of Grace, and the hopes of Glory; theſe ſpiritual and clarified Eſſences, which a carnal eye cannot ſee,
+<pb n="64" facs="tcp:48296:40"/>
+nor a carnal judgment value, theſe are moſt ſuitable to the ſoul, that is a Spirit, and ought not to be unequaly yoak't to the dregs and droſs of earth<g ref="char:EOLhyphen"/>ly enjoyments:</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, The ſoul is im<g ref="char:EOLhyphen"/>mortal, but all worldly things are periſhing, and wear out in the uſing. And therefore it was but ſmall comfort, when the rich man ſung his <hi>Requiem,</hi> to ſay, <hi>Soul, take thy eaſe, thou hast Goods laid up for many years.</hi> Thou fool! What is an eſtate for many years, to a ſoul whoſe duration is not meaſured by years, but by Eternity? What when thoſe years of plenty are expired? How deſtitute will thy ſoul be when it ſhall have out lived all its good things? It may out-live them, even in
+<pb n="65" facs="tcp:48296:40"/>
+this world. God may nip and blaſt all that thou ſetteſt thy heart on, and make all thy comforts fall off from thee, like ſo many withered leaves. However, if thou haſt no o<g ref="char:EOLhyphen"/>ther than what this miſerable world can afford, thou ſhalt certainly out-live them in the world to come: And what wilt thou do, not in thoſe years, but in that Eternity of Fa<g ref="char:EOLhyphen"/>mine?</p>
+            <p>As it is with thoſe that are invited to feaſt in ſome noble Family, the Furniture is rich, the Entertainment ſplendid and magnificent; but when they depart, they cannot of all that pomp and bravery carry any thing away with them: So is it here; the world is Gods great Houſe, richly furniſht,
+<pb n="66" facs="tcp:48296:41"/>
+and we well entertain'd in it; we have all things liberally af<g ref="char:EOLhyphen"/>forded us for our uſe; but no<g ref="char:EOLhyphen"/>thing of all is ours. And there<g ref="char:EOLhyphen"/>fore God hath ſet that grim Porter, Death, at his Gate to ſee that as we brought nothing into it, ſo we carry nothing out of it. What a ſad parting hour will it be to the ſoul, when it muſt go into another world, and leave all that it admired, and loved, be<g ref="char:EOLhyphen"/>hind in this? How will it pro<g ref="char:EOLhyphen"/>tract, and linger? How loath will it be to enter upon ſo great a journey, and carry nothing to defray the charges of it? Certainly, dying muſt needs be a terrible thing to thoſe who have gotten nothing but what they can no longer keep, when their ſouls muſt be ſet on ſhore
+<pb n="67" facs="tcp:48296:41"/>
+in a vaſt and black Eternity all naked and deſtitute, having nothing to releive or ſupport them.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> Thirdly, The neceſſities of the ſoul, are altogether of an<g ref="char:EOLhyphen"/>other kind, than thoſe which worldly things are able to ſup<g ref="char:EOLhyphen"/>ply; and therefore they are wholly unſuitable. Natural things may well ſerve for natu<g ref="char:EOLhyphen"/>ral wants. Food will ſatis<g ref="char:EOLhyphen"/>fie hunger; and Rayment fence off the injuries of the weather, and Riches will procure both. But the ſouls neceſſities are ſpi<g ref="char:EOLhyphen"/>ritual, and theſe no Natural thing can reach. It wants a price to redeem it, nothing can do this but the pretious Blood of Chriſt. It wants pardon and forgiveneſs, nothing can grant it, but the free and abun<g ref="char:EOLhyphen"/>dant
+<pb n="68" facs="tcp:48296:42"/>
+mercy of God. It wants Sanctification and Holineſs, Comfort, and Aſſurance, no<g ref="char:EOLhyphen"/>thing can effect theſe but the Holy Ghoſt. Here all world<g ref="char:EOLhyphen"/>ly things fall ſhort. The Exi<g ref="char:EOLhyphen"/>gencies of the outward man they may ſupply; but the great<g ref="char:EOLhyphen"/>eſt abundance of them can ne<g ref="char:EOLhyphen"/>ver quiet a troubled Conſci<g ref="char:EOLhyphen"/>ence, nor appeaſe an angry God, nor remove the con<g ref="char:EOLhyphen"/>demning guilt of the leaſt ſin: No,<note place="margin">Pſal. 49.8.</note> 
+               <hi>The redemption of the ſoul is pretious</hi> (more pretious than to be purchaſed by theſe poor things) <hi>and it ceaſeth for e<g ref="char:EOLhyphen"/>ver.</hi>
+            </p>
+            <p>Poſſibly now in the time of your peace and proſperity, you regard not theſe ſpiritual wants; but when the dayes of ſorrow and darkneſs ſhall come
+<pb n="69" facs="tcp:48296:42"/>
+upon you, when God ſhall drop into your Conſciences a little of his wrath and diſplea<g ref="char:EOLhyphen"/>ſure, you may as well ſeek to cure a wound in your body by applying a plaiſter to your gar<g ref="char:EOLhyphen"/>ment, as ſeek to eaſe a wound<g ref="char:EOLhyphen"/>ed Spirit by all the Treaſures, Pleaſures, and Enjoyments of this world.<note place="margin">Prov. 11.4.</note> 
+               <hi>Riches</hi> (ſaith the <hi>wiſe man) profit not in the day of wrath:</hi> For indeed they cannot reach the ſoul to bring any true ſolace to it.</p>
+            <p>Thus you ſee how unſuitable the World is to the Soul. Un<g ref="char:EOLhyphen"/>ſuitable to the Nature of it, for the Soul is ſpiritual, but all earthly enjoyments, are droſſie and material; the ſoul is im<g ref="char:EOLhyphen"/>mortal, but theſe are all pe<g ref="char:EOLhyphen"/>riſhing: Unſuitable alſo to the neceſſities of the ſoul, which
+<pb n="70" facs="tcp:48296:43"/>
+they can never reach nor ſup<g ref="char:EOLhyphen"/>ply.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="IX"/> Again, The Vanity of the World appears in its Incon<g ref="char:EOLhyphen"/>ſtancy and Fickleneſs. Gods Providence adminiſters all things here below in perpetual viciſſitudes. His Hand turns them about like ſo many <hi>wheels</hi> (to which they are compared <hi>Ezek.</hi> 1.) the ſame part is now uppermoſt, and anon low<g ref="char:EOLhyphen"/>ermoſt; now lifted up in the Air, and by and by grated through the mire. This is the mutable condition of the world. And therefore we find it compared to the <hi>Moon, Rev.</hi> 12.1. where the Church is deſcribed to be <hi>Cloathed with the Sun, and to have the Moon,</hi> that is, the World, <hi>under her ſe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t.</hi> And well may it bear the
+<pb n="71" facs="tcp:48296:43"/>
+reſemblance, for it is ſtill wax<g ref="char:EOLhyphen"/>ing and waning, ſometimes full of brightneſs, at other times ſcarce a ſmall ſtreak of light to be diſcerned. There are none of us but have had experience in ſome kind or o<g ref="char:EOLhyphen"/>ther, of the inconſtancy of theſe ſublunary enjoyments. When the Sun ſhines bright and warm, all the flowers of the Field open and diſplay their leaves, to receive him into their boſomes; but when night comes, they fold together, and ſhut up all their glories: And though they were like ſo many little Suns ſhining here below, able, one would think, to force a day for themſelves, yet when the Sun withdraws his Beams, they droop, and hang the head, and ſtand neglected,
+<pb n="72" facs="tcp:48296:44"/>
+dull and obſcure things. So hath it fared with us: While God hath ſhone upon us with warm and cheriſhing influen<g ref="char:EOLhyphen"/>ces, we opened and ſpread, and flouriſht into a great pomp and glory: But he onely hides his Face, draws in his Beams, and all our beautiful leaves ſhut up, or fall to the ground, and leave us a bare ſtalk, poor and contemptible.</p>
+            <p>Or if there have been no ſuch conſiderable mutations in what concerns us, yet the re<g ref="char:EOLhyphen"/>volutions that God hath of late years brought upon others, ſo beyond expectation or example, may well inſtruct us in the Va<g ref="char:EOLhyphen"/>nity of the World, and make us no leſs contemn it, than ad<g ref="char:EOLhyphen"/>mire that infinite wiſdom that governs it.</p>
+            <p>
+               <pb n="73" facs="tcp:48296:44"/>It is ſaid of the <hi>Wheels, Ezek.</hi> 1.17. <hi>That they went upon their four ſides.</hi> For one Wheel interſecting and croſſing ano<g ref="char:EOLhyphen"/>ther, the whole muſt needs conſiſt of four ſides or Semi-circles: And moving upon theſe four ſides, it muſt of ne<g ref="char:EOLhyphen"/>ceſſity move very ruggedly, by jolts and jerks. So truly the Providences of God do ſome<g ref="char:EOLhyphen"/>times move unevenly, as croſs wheels would do moving upon their ſides. Great and ſuddain changes are often brought to paſs without being ripened by ſenſible degrees; but happen by the ſurpriſal of ſome unexpe<g ref="char:EOLhyphen"/>cted Providence, and as it were, by the ſuddain jerk of the wheel, ſhaking off thoſe who ſate on the top, and cruſhing them in its paſſage over.</p>
+            <p>
+               <pb n="74" facs="tcp:48296:45"/>'Tis true theſe mutations which to us ſeem ſo confuſed and tumultuary, are all order<g ref="char:EOLhyphen"/>ly and harmonious in the Di<g ref="char:EOLhyphen"/>vine Councel &amp; foreknowledg. There is not a Providence that breaks its rank, not a wheel that moves out of its tract, and there is a deſtined end for them all, the glory of the Almighty Creator; to which, while every Creature purſues its own inclinations, he ſweetly, and yet efficaciouſly ſways them. They are all like Arrows ſhot at a mark by an unerring hand: Some are ſhot point-blanck, and ſome by compaſs, but none ſo careleſly as to miſs it. Though changes may ſurpriſe us, yet they do not ſurpriſe God: But as it is a great pleaſure to us, to ſee our deſigns and forecaſts
+<pb n="75" facs="tcp:48296:45"/>
+accompliſhed; ſo infinite Wiſ<g ref="char:EOLhyphen"/>dom delights it ſelf to look on, and ſee how all things ſtart up into their place and order, as ſoon as called forth by his ef<g ref="char:EOLhyphen"/>ficacious decree and foreknow<g ref="char:EOLhyphen"/>ledg. Among all the weighty and arduous cares of govern<g ref="char:EOLhyphen"/>ing the world, it is (if I may ſo expreſs it) the recreation of Providence, to amuſe man<g ref="char:EOLhyphen"/>kind, with ſome wonderful e<g ref="char:EOLhyphen"/>vents; that when we cannot find out the connexion and de<g ref="char:EOLhyphen"/>pendance of ſecond cauſes, we may humbly acquieſce in ado<g ref="char:EOLhyphen"/>ring the abſolute Soveraignty of the Firſt: And by obſerving the mutations of Affairs here below, may be taught to re<g ref="char:EOLhyphen"/>poſe our ſelves in him who onely is immutable. Thus God adminiſters the various accur<g ref="char:EOLhyphen"/>rences
+<pb n="76" facs="tcp:48296:46"/>
+of the world accord<g ref="char:EOLhyphen"/>ing to the councel of his own will; and makes the in<g ref="char:EOLhyphen"/>conſtancy of it, ſerve both for his delight and our admo<g ref="char:EOLhyphen"/>nition.</p>
+            <p>It is in vain therefore to ex<g ref="char:EOLhyphen"/>pect happineſs from what is ſo uncertain. All the comforts of it are but like fading flow<g ref="char:EOLhyphen"/>ers, that while we are looking on them, and ſmelling to them, die, and wither in our hands. Is it pleaſures we ſeek? Theſe muſt vary: For where there is not an intermiſſion, it is not pleaſure, but a glut and ſur<g ref="char:EOLhyphen"/>fet. And hence it is that they who are uſed to hardſhips, taſte more ſweetneſs in ſome ordinary pleaſures, than thoſe who are accuſtomed to a vo<g ref="char:EOLhyphen"/>luptuous life, do in all their
+<pb n="77" facs="tcp:48296:46"/>
+exquiſite and invented delights. Do you purſue Honour and Applauſe in the world? This hangs upon the wavering tongues of the Multitude: To follow this is but to purſue a puff of wind, and of all winds in nature the moſt fickle and changeable. The Peoples <hi>Ho<g ref="char:EOLhyphen"/>ſanna,</hi> and Crucifie are oft pronounced in the ſame breath. And beſides that it is <note n="a" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>Ant.</hi> l. S. Sect. 44.</note> no great matter that thoſe ſhould think or ſpeak well of thee, who have but too much reaſon to think ill of themſelves; beſides this, conſider how ſoon publick Fame grows out of breath. Poſſibly an Age or two may talk of thee, but this bruit is but like ſucceſſive <hi>Echo's,</hi> that render the voice ſtill weaker
+<pb n="78" facs="tcp:48296:47"/>
+and weaker, till at length it vaniſheth into ſilence. Yea, couldſt thou fill whole Chro<g ref="char:EOLhyphen"/>nicles with thy ſtory, yet time or moths will eat thee out: And the <note n="b" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>Id.</hi> l. 7. S. 23.</note> freſher remembrance of other mens actions will bu<g ref="char:EOLhyphen"/>ry thine in Oblivion. Is it riches you deſire? Theſe too are uncertain, 1 <hi>Tim.</hi> 6.17. <hi>Charge them that they truſt not in uncertain riches.</hi> Uncertain they are in getting, and uncer<g ref="char:EOLhyphen"/>tain in keeping when got. All our treaſures are like quick-ſilver, which ſtrangely ſlips between our fingers when we think we hold it faſteſt. <hi>Riches,</hi> (<note n="c" place="margin">Prov. 23.5.</note> ſaith the Wiſe man) <hi>make themſelves Wings, and flie a<g ref="char:EOLhyphen"/>way as an Eagle towards Hea<g ref="char:EOLhyphen"/>ven;</hi> and it were a moſt ſtrange
+<pb n="79" facs="tcp:48296:47"/>
+folly <note n="d" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Id. <hi>lib. 6. Sect. 11. The ſame with that of</hi> So<g ref="char:EOLhyphen"/>lomon, Wilt thou ſet thine eyes upon that which is not, <hi>&amp;c.</hi>
+               </note> to fall paſſionately in love with a Bird upon his wing, who is free and uncon<g ref="char:EOLhyphen"/>fined as the Air in which he flies, and will not ſtoop to thy call or lure. Believe it Miſer, all thy angels are winged, and if thou doſt not, yet ſome or other of thy heirs will ſet them flying. How much better were it, ſince they will flie, for thy ſelf to direct their flight towards Heaven, by relieving the neceſſitous ſervants and members of Jeſus Chriſt. Then will their flight be happy and glorious, when they carry on their wings the prayers and bleſſings of the poor whoſe bowels thou haſt refreſhed. This is to lay up Treaſure in Heaven, to remit thy Monys to the other World, where
+<pb n="80" facs="tcp:48296:48"/>
+they ſhall be truly paid thee, with abundant Intereſt. This is to lay up a ſtock for hereaf<g ref="char:EOLhyphen"/>ter, that thou maiſt have where<g ref="char:EOLhyphen"/>on to live ſplendidly and glo<g ref="char:EOLhyphen"/>riouſly to all Eternity. And thus to lay out, is to lay up, to lay up uncertain riches in a ſafe repoſitory: Gods promiſes ſhall be thy ſecurity, and every Star in Heaven, a Seal ſet up<g ref="char:EOLhyphen"/>on the Treaſury door which none can break or violate.</p>
+            <p>Thus you ſee how mutable and inconſtant all worldly things are. So that we may truly apply that which the Pſalmiſt ſpeaks of the Earth in another ſenſe, That <note n="*" place="margin">Pſal. 24.2.</note> 
+               <hi>God hath founded it upon the Sea, and e<g ref="char:EOLhyphen"/>ſtabliſht it upon the Flouds.</hi> Such is the waving, and fluctuation of all things here below, that they
+<pb n="81" facs="tcp:48296:48"/>
+are no more conſtant, than if they were merely built upon the ebbing and flowing of the Tide.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="10"/> Laſtly, The Vanity of the World appears in this that it is altogether unſatisfactory. That muſt needs be vain, which when we enjoy it in its greateſt abundance, can give us no real nor ſolid content. Such an em<g ref="char:EOLhyphen"/>pty thing is the whole World. You may as ſoon graſp a bun<g ref="char:EOLhyphen"/>dle of dreams, or take up an arm full of your own ſhadow, as fill the vaſt and boundleſs deſires of your ſouls with theſe earthly enjoyments. And there<g ref="char:EOLhyphen"/>fore the Plalmiſt ſpeaking of proſperous ſinners, ſets forth their ſtate by the moſt thin and empty things imaginable, <hi>Pſal.</hi> 73.30. <hi>As a dream when one
+<pb n="82" facs="tcp:48296:49"/>
+awakes, ſo O Lord, thou ſhalt deſpiſe their image.</hi> The Ima<g ref="char:EOLhyphen"/>ges and Repreſentations that a dream makes, ſeem very brisk and lively; but when we re<g ref="char:EOLhyphen"/>flect upon them with our wa<g ref="char:EOLhyphen"/>king thoughts, we find them confuſed and impertinent. Such is all the proſperity of this world, it is but as the image and fiction of a dream.</p>
+            <p>
+               <note place="margin">Iſa. 29.8.</note> As an hungry man that dreams, he is at a furniſht Ta<g ref="char:EOLhyphen"/>ble, and fills himſelf with all varieties of Delicates, how joyful, and how pleas'd is he, how fully ſatisfied, if he were not to wake again! But ſome one jogs or calls him; he wakes, and finds himſelf hun<g ref="char:EOLhyphen"/>ger-ſtarv'd, nothing fed but his phancy. So is it with us in this world. While the Soul
+<pb n="83" facs="tcp:48296:49"/>
+lies under the coverlet of this body, it ſleeps: And one thinks himſelf rich; another, great and noble; a third learned and wiſe: But alas! All this is onely a dream: When either Afflictions, or Death, make a noiſe, and call upon him, the ſleepy ſoul awakes, and finds it ſelf empty and hunger-ſtarv'd, after all the imaginary ſtore it enjoyed.</p>
+            <p>Now, the Unſatisfactori<g ref="char:EOLhyphen"/>neſs of the World, may be clearly evinced by theſe two things.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> Firſt, In that the higheſt condition we can attain unto, cannot free us from cares and croſſes. Yea indeed it is ſo far from freeing us, that it rather encreaſeth them. It doth but make us ſpread the wider, and
+<pb n="84" facs="tcp:48296:50"/>
+ſtand the fairer mark for trou<g ref="char:EOLhyphen"/>ble. And yet we are like Chil<g ref="char:EOLhyphen"/>dren, that think the Skie lies on yonder Hill; thither they run, hoping to touch it there: When they come, they find it diſlodg'd to another Hill; af<g ref="char:EOLhyphen"/>ter it they run, and purſue it from hill to hill, and after all their pains and ſweat, find themſelves as far below it as at firſt: So it fares with us. We think happineſs, and true con<g ref="char:EOLhyphen"/>tent lies in ſome condition a<g ref="char:EOLhyphen"/>bove us. Thither we haſten, hoping we ſhall reach it there. When we arrive thither, we find, the happineſs we ſought for is diſlodg'd, and ſeems to us to reſt in a condition above that: But when we attain this too, ſtill we are as far below happineſs and ſatisfaction, as
+<pb n="85" facs="tcp:48296:50"/>
+we were in our loweſt eſtate.</p>
+            <p>When we change our out<g ref="char:EOLhyphen"/>ward condition, be it to never ſo great advantage, we do not loſe, but onely change our cares. If we are freed from the cares and croſſes of a poor and private life; we fall into thoſe of a pompous and envied greatneſs, which are both more numerous, and more oppreſ<g ref="char:EOLhyphen"/>ſive. <note n="a" place="margin">Anguſtan<g ref="char:EOLhyphen"/>da ſunt pa<g ref="char:EOLhyphen"/>trimonia, ut mi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ùs ad in<g ref="char:EOLhyphen"/>jurias fortu<g ref="char:EOLhyphen"/>nae ſimus ex<g ref="char:EOLhyphen"/>poſiti. Habi<g ref="char:EOLhyphen"/>liora ſunt corpora in bello, quae in arm<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſua contrahi poſ<g ref="char:EOLhyphen"/>ſunt, quàm quae ſupe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>funduntur, &amp; undique magnitudo ſua vula<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ri<g ref="char:EOLhyphen"/>bus objecit. <hi>Sen.</hi> de t<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+                  <expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> c. <hi>8.</hi> Cogendae i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>dictum res ſunt, ut te<g ref="char:EOLhyphen"/>lum in va<g ref="char:EOLhyphen"/>num <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>adant. <hi>Id. c. 9.</hi>
+               </note> The man that lies moſt compacted, and in leaſt com<g ref="char:EOLhyphen"/>paſs in the world, is like to ſcape beſt: Whereas the great ones, that take up much room, do onely ſhew in how many places, and concernments, they are lyable to be wounded. It is not therefore any thing in this world that can give you ſa<g ref="char:EOLhyphen"/>tisfaction. All the enjoyments of it are to the ſoul, as wind
+<pb n="86" facs="tcp:48296:51"/>
+to the ſtomach, they may gripe it, but they can never ſatisfie it. Indeed ſo vain are they, that they ſcarce have any other proof of their reality, but the pain and torment they bring with them.</p>
+            <p>
+               <hi>Secondly,</hi> The world appears to be unſatisfactory, in that be our condition what it will, yet ſtill we deſire change. We can no more reſt in an high eſtate, than in a low; but ſtill we de<g ref="char:EOLhyphen"/>ſire ſomething further, and ſomething better. <note n="b" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>; Plut. de <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>runquil. A<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>.</note> As ſick men toſſe to and fro, from ſide to ſide, thinking to find eaſe, by
+<pb n="87" facs="tcp:48296:51"/>
+changing their poſture; where<g ref="char:EOLhyphen"/>as it is not their outward po<g ref="char:EOLhyphen"/>ſture, but their inward diſtem<g ref="char:EOLhyphen"/>per, that is the cauſe of their reſtleſſeneſs: So do we endea<g ref="char:EOLhyphen"/>vour to change and ſhift condi<g ref="char:EOLhyphen"/>tions in the world, and ly ſome<g ref="char:EOLhyphen"/>times in one poſture, and ſome<g ref="char:EOLhyphen"/>times in another, but yet are reſtleſs in all; for where<g ref="char:EOLhyphen"/>ſoere we tumble, we carry our diſeaſe with us, falſe opinions and fooliſh hopes, and impotent deſires, and fond de<g ref="char:EOLhyphen"/>ſignes, which make us complain of our preſent ſtate, and wiſh the amendment of that, when nothing wants cure but our ſelves.</p>
+            <p>
+               <note n="c" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>&amp;c.</hi> Plut. Ib.</note> The Servant thinks he ſhall
+<pb n="88" facs="tcp:48296:52"/>
+be a happy man when he is made free. Is the freeman hap<g ref="char:EOLhyphen"/>py? No, but he ſhall be, when he hath gotten ſuch an eſtate. Is the rich man happy? No; but he ſhall be when he is in<g ref="char:EOLhyphen"/>veſted with ſuch an honour and dignity. Well, Is the honourable man happy? No; unleſs he be ſupream. And thoſe who are ſupreme, cannot think themſelves compleatly happy, unleſs they be Univer<g ref="char:EOLhyphen"/>ſal Monarchs. And thoſe who were ſo, we find they could not reſt there, but would needs be adored for Gods. Oh whi<g ref="char:EOLhyphen"/>ther do the boundleſs deſires of men hurry them! Nothing in this world can put a ſtop to them.</p>
+            <p>
+               <note place="margin">Plut. in vi<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>â Pyr<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.</note>It was a pertinent diſcourſe of <hi>Cineas,</hi> diſwading <hi>Pyrrhus</hi>
+               <pb n="89" facs="tcp:48296:52"/>
+from undertaking a war againſt the <hi>Romans:</hi> Sir, (ſaith he) when you have conquer'd them what will you do next? Then <hi>Sicily</hi> is near at hand, and eaſie to maſter. And what when you have ſubdued <hi>Sicily?</hi> Then we'll paſs over to <hi>Africk,</hi> and take <hi>Carthage,</hi> which cannot long withſtand us. When theſe are conquer'd, what will be your next attempt? Then (ſaith <hi>Pyrrhus</hi>) we'll fall in upon <hi>Greece,</hi> and <hi>Macedon,</hi> and recover what we have loſt there. Well, when all are ſubdued, what fruit do you expect from all your Victories? Then (ſaith he) we'll ſit down and enjoy our ſelves. Sir (replies <hi>Cineas</hi>) May we not do it now? Have you not al<g ref="char:EOLhyphen"/>ready a Kingdom of your own?
+<pb n="90" facs="tcp:48296:53"/>
+And he that cannot enjoy him<g ref="char:EOLhyphen"/>ſelf with a Kingdom, cannot with the whole World. Such are the deſignes of men, and ſo we may anſwer them. Moſt are projecting how they may get ſuch an eſtate; then how they may raiſe themſelves to honour, and think that their advancement in both, will bring them ſatisfaction. Alas! This will not do. Their deſires will ſtill run before them: And they may as well ſit down con<g ref="char:EOLhyphen"/>tent where they are, as where they hope to be.</p>
+            <p>And the reaſon of this unſa<g ref="char:EOLhyphen"/>tisfactorineſs in worldly things, is becauſe none of them are ſo good as the ſoul is. The Soul, next to Angels, is the very top and cream of the whole Creati<g ref="char:EOLhyphen"/>on, other things are but Dregs
+<pb n="91" facs="tcp:48296:53"/>
+and Lees compared to it. Now that which is our happineſs muſt be better than our ſelves; for it muſt perfect us. But theſe things being far worſe, and in<g ref="char:EOLhyphen"/>feriour, the ſoul in cleaving to them, is ſecretly conſcious that it abaſeth, and diſparageth it ſelf; and therefore cannot find true ſatisfaction. Nothing can fill the ſoul, but that which eminently contains in it all good. But now, as light is onely divided, and parcel'd out among the Stars, but is all united in the Sun: So goodneſs is onely parcel'd out among the Creatures; this Creature hath one ſhare, and that, another; not any of them contains the whole ſum of goodneſs. This is proper to God onely, who is the Author, and original of
+<pb n="92" facs="tcp:48296:54"/>
+them all, in whom all excel<g ref="char:EOLhyphen"/>lencies and perfections are con<g ref="char:EOLhyphen"/>centred. And therefore in him alone can be found that reſt and ſatisfaction which the ſoul in vain ſeeks for, in any thing beſides himſelf.</p>
+            <p>Theſe are the Demonſtrati<g ref="char:EOLhyphen"/>ons of the Worlds Vanity; which, though they be many, and various, yet I doubt not but every mans particular expe<g ref="char:EOLhyphen"/>rience, may furniſh him with divers others. But whatever our Obſervations are, the Uſes we may make of them are theſe.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/>
+               <hi>First,</hi> It ſhould teach us to admire and adore the good Providence of God to his Children, in ſo ordering it that the World ſhould be thus
+<pb n="93" facs="tcp:48296:54"/>
+vain, and deal ſo ill with thoſe who ſerve it. For if it were not ſo infamous and deceitful as it is, if it did not fruſtrate and diſappoint our hopes, and pay us with Vexation, when it promiſeth Fruition, and Con<g ref="char:EOLhyphen"/>tent: What think'ſt thou O Chriſtian, would be the end of this? Would any one think of God or remember Heaven, and the life to come? St. <hi>Auguſtine</hi> ſomewhere, ſpeaks excellent<g ref="char:EOLhyphen"/>ly, <hi>Turbat me Mundus, &amp; Ego eum diligo, quid ſi non turbaret? The World troubles and moleſts me, and yet I love it; What if I did not trouble me?</hi> Certain<g ref="char:EOLhyphen"/>ly, we ſhould fall into an utter forgetfulneſs of God, if we could find any true ſatisfaction here. We ſhould never think of returning to the Fountain of
+<pb n="94" facs="tcp:48296:55"/>
+living Waters, if we could find enough in Ciſterns to quench the thirſt of our ſouls. And therefore God deals with us, as ſome great perſon would do with a diſobedient ſon, that forſakes his Houſe, and riots among his Tenants: His Father gives order they ſhould treat him ill, affront, and chaſe him from them, and all that he might reduce him. The ſame doth God. Man is his wild and debaucht ſon. He flies from the commands of his Fa<g ref="char:EOLhyphen"/>ther, and cannot endure to live under his ſtrict and ſevere Go<g ref="char:EOLhyphen"/>vernment. Whither goes he? But to the pleaſures of the World, and revels, and riots among the Creatures. But God reſolves to recover him, and therefore commands every
+<pb n="95" facs="tcp:48296:55"/>
+Creature to handle him rough<g ref="char:EOLhyphen"/>ly. Burn him Fire, toſs him Tempeſts, and Shipwrack his Eſtate; forſake him Friends, deſignes fail him; Children be rebellious to him, as he is to me; let his ſupports and de<g ref="char:EOLhyphen"/>pendances ſink under him, his riches melt away, leave him poor, and diſpis'd, and deſti<g ref="char:EOLhyphen"/>tute. Theſe are all Gods ſer<g ref="char:EOLhyphen"/>vants, and muſt obey his will. And to what end is all this, but that ſeeing himſelf forſaken of all, he may at length like the beggar'd Prodigal return again to his Father.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/>
+               <hi>Secondly,</hi> If the Vanity of the world be ſuch, and ſo great, if it be onely an empty bubble, a ſwelling nothing, leſs ſolid than the dream of a ſhaddow; if it be thus unſuitable, uncer<g ref="char:EOLhyphen"/>tain,
+<pb n="96" facs="tcp:48296:56"/>
+and unſatisfactory, as I have demonſtrated to you, what groſſe folly then are moſt men guilty of in ſetting ſo high a price upon that which is of no worth nor ſubſtance? Though formerly we have been ſo much deceived as to take the worlds paint and varniſh for true beau<g ref="char:EOLhyphen"/>ty, and its glittering for ſub<g ref="char:EOLhyphen"/>ſtantial treaſure, yet now ſince the cheat is diſcovered, ſince you have ſeen this falſe pack o<g ref="char:EOLhyphen"/>pened, and nothing but counter<g ref="char:EOLhyphen"/>feit wares obtruded upon you, your folly will be inexcuſable if after experiments &amp; admoniti<g ref="char:EOLhyphen"/>ons, you ſhould contribute any longer to your own cheat, &amp; ſet a price upon things which you know to be vile and worthleſs. The wiſe man (as you have heard) ſums up their whole
+<pb n="97" facs="tcp:48296:56"/>
+value, onely in a great Cypher, and a great blot, <hi>Vanity, and Vexation.</hi> At what price would you rate <hi>Vanity,</hi> which is nothing? Or <hi>Vexation</hi> which is worſe than nothing?</p>
+            <p>And therefore our Saviour, <hi>Mark</hi> 4.9. compares the things of this world to <hi>Thorns; Some fell among thorns:</hi> which thorns he interprets to be the <hi>Cares of this world, and the deceitfulneſs of riches,</hi> verſ. 19. Now, he were a mad man that to aſſwage his hunger, would attempt to ſwal<g ref="char:EOLhyphen"/>low a buſh of Thorns. No leſs is the madneſs, and extream folly of moſt men, who to ſa<g ref="char:EOLhyphen"/>tisfie the eager appetite of an hungry and indigent ſoul, gape after the <hi>Thorns</hi> of this world, and chew <hi>Thiſtles;</hi> which in<g ref="char:EOLhyphen"/>ſtead of yielding them either
+<pb n="98" facs="tcp:48296:57"/>
+Grapes or Figs, will onely ſerve to pierce them through with innumerable ſorrows.</p>
+            <p>A mans wiſdom or folly is commonly judged by the bar<g ref="char:EOLhyphen"/>gains he makes. If he lay out that which is very pretious, to purchaſe what is of no worth, this we juſtly account a fooliſh bargain. If on the other hand, he purchaſeth that which is of great price, with ſomething little worth, we account it a wiſe and thriving bargain. Now here we may ſee the groſs folly of moſt men. Though they are wiſe enough in bartering one part of the world for another; yet they ſhew themſelves very fools in purchaſing any part of the world, with that which is no part of it. The Scripture hath told us, That all that is
+<pb n="99" facs="tcp:48296:57"/>
+in the world is honour, plea<g ref="char:EOLhyphen"/>ſure or profit. While we one<g ref="char:EOLhyphen"/>ly traffick with theſe for one another, we do not amiſs. The world is a proper price for it ſelf. And doubtleſs we may lawfully part with ſome world<g ref="char:EOLhyphen"/>ly advantages to procure o<g ref="char:EOLhyphen"/>thers. But then there are o<g ref="char:EOLhyphen"/>ther things which do not be<g ref="char:EOLhyphen"/>long to the world under this ac<g ref="char:EOLhyphen"/>ception. Our Affections, our Conſciences, our pretious and immortal Souls. And theſe God hath given us to trade with for Heaven, and eternal glory. Now herein lyes the folly of moſt men, that they purchaſe the vile things of this World, with ſuch an ineſtima<g ref="char:EOLhyphen"/>ble price, and extravagantly outbid themſelves to procure trifles with that which might
+<pb n="100" facs="tcp:48296:58"/>
+procure them eternal happineſs. More particularly,</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/>
+               <hi>First,</hi> Is it not extream folly to laviſh out pretious affecti<g ref="char:EOLhyphen"/>ons, upon vile and vain objects. Affections are the wings of the the ſoul, without which, the ſoul it ſelf, were but a dull and unactive carkaſſe. Theſe God hath given it, that it might be able to take its flight to hea<g ref="char:EOLhyphen"/>ven, and lodge it ſelf in his bo<g ref="char:EOLhyphen"/>ſome. Now, how unworthy a thing is it onely to flutter to and fro upon the ſurface of the earth, to clog and clotter theſe wings with mire and dirt, which were at firſt made to take ſo high, and ſo noble a flight.</p>
+            <p>
+               <note n="a" place="margin">Coloſ. 3.2.</note> The <hi>Apostle</hi> hath command<g ref="char:EOLhyphen"/>ed us to <hi>ſet our affections on things above, and not on things
+<pb n="101" facs="tcp:48296:58"/>
+on the earth.</hi> And indeed there is great reaſon for it. For the two choice affe<g ref="char:EOLhyphen"/>ctions of the ſoul are <hi>Love,</hi> and <hi>Joy.</hi> Now that is moſt wor<g ref="char:EOLhyphen"/>thy our Love, that can re<g ref="char:EOLhyphen"/>turn a Joy moſt worthy of us. But the Joy that the world gives, is uſually tu<g ref="char:EOLhyphen"/>multuous, alway check with ſome ſecret annoy, and it ends with a dulneſs and damp upon the ſpirits. It is but like the empty <note n="b" place="margin">
+                  <hi>Eccleſ. 7 6</hi> Fl<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mma ſti<g ref="char:EOLhyphen"/>p<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lâ exorta, claro crepi<g ref="char:EOLhyphen"/>tu, largo fulgore, cito incemento; ſed enim materiâ l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>vi, caduco inc<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ndio, nullis reli<g ref="char:EOLhyphen"/>quiis <hi>Apol. Apol.</hi>
+               </note> 
+               <hi>crackling of thornes un<g ref="char:EOLhyphen"/>der a pot,</hi> that for the preſent may make a great noiſe and blaze, but ſuddenly vaniſheth all away into ſmoke. Whereas an heavenly Chriſtian feels ſometimes a ponderous and weighty Joy, a Joy ſpringing up in his ſoul, almoſt intoler<g ref="char:EOLhyphen"/>able, and altogether unutter<g ref="char:EOLhyphen"/>able,
+<pb n="102" facs="tcp:48296:59"/>
+a Joy that melts him in<g ref="char:EOLhyphen"/>to extaſie and rapture. How in<g ref="char:EOLhyphen"/>finitely doth he then diſdain that any Soul ſhould be ſo wre<g ref="char:EOLhyphen"/>tchedly ſottiſh, as to prefer the the world before, or equallize it with God. He thinks the happineſs he then enjoyes ſo great, that although he believes it is, yet he cannot conceive how it ſhould be more, or grea<g ref="char:EOLhyphen"/>ter in Heaven it ſelf. Then the ſoul claps its wings; it would fain take its flight, and be gone: it breaths, it pants, it reaches after God, and falls in<g ref="char:EOLhyphen"/>to an agony of Joy and deſire in<g ref="char:EOLhyphen"/>conceivably mixt together. Can the world give us any ſuch o<g ref="char:EOLhyphen"/>ver powering Joy as this? It may afford us Corn, and wine, the weak recruits of a frail life: but when it hath emptied all its
+<pb n="103" facs="tcp:48296:59"/>
+ſtore and abundance into our boſomes, it is not worthy to be mentioned with the love, and favour of God, which is <note n="a" place="margin">Pſal. 63.3</note> 
+               <hi>bet<g ref="char:EOLhyphen"/>ter than life it ſelf.</hi> And there<g ref="char:EOLhyphen"/>fore the <hi>Pſalmiſt</hi> makes it his prayer, <hi>Pſal.</hi> 4.6. <hi>Lord lift thou up the light of thy Countenance upon us: Thou haſt put gladneſs in my heart, more than in the time that their corn or wine en<g ref="char:EOLhyphen"/>creaſed.</hi>
+            </p>
+            <p>The Joy of the world re<g ref="char:EOLhyphen"/>ſembles a torrent: As upon a glut of Rain, you ſhall have a torrent come rolling along with noiſe and violence, over<g ref="char:EOLhyphen"/>flowing its banks, and bearing all before it; yet it is but mud<g ref="char:EOLhyphen"/>dy and impure water, and 'tis ſoon gone and dryed up. Such is all the Joy this world can give; it makes a great noiſe, 'tis
+<pb n="104" facs="tcp:48296:60"/>
+commonly immoderate, and ſwells beyond its due bounds, yet 'tis but a muddy and im<g ref="char:EOLhyphen"/>pure Joy, it ſoon rolls away, and leaves nothing behind but a drowth in the ſoul. Now ſince the Worlds Joy is but ſuch a poor empty thing as this, it is moſt groſs folly for us to lay out our beſt love upon that which cannot repay us with the beſt Joy.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/>
+               <hi>Secondly,</hi> If the World be thus vain, what folly is it to lay out our moſt ſerious cares, and contrivances upon it! The cares of worldly men are moſt abſurd and irrational. Ask them why they care, they will tell you it is that they may live without care: and yet the more they get, the more do
+<pb n="105" facs="tcp:48296:60"/>
+their cares ſwarm and encreaſe about them. To what purpoſe do they thus diſquiet them<g ref="char:EOLhyphen"/>ſelves? They were as good make Nets to catch the Wind, as lay plots either to obtain, or ſecure a World, which is ſo ſlippery, and ſo full of diſ<g ref="char:EOLhyphen"/>appointments, that neither they who have it, are ſure of keeping it; nor they who have it not, of getting it. We may obſerve a kind of coyneſs in the World: thoſe who court it moſt, and purſue it cloſeſt, oftimes miſs of their deſignes, becauſe they overact them. And it is commonly ſeen, that thoſe (who as we uſe to ſay) have many Irons in the Fire, get nothing thereby, but onely the burning of their own fingers.</p>
+            <p>
+               <pb n="106" facs="tcp:48296:61"/>'Tis true, there is a pruden<g ref="char:EOLhyphen"/>tial and providential care, that is ſo far from being chargeable with folly, that it is neceſſary, and a great part of our duty, not onely as we are men, but as we are <note n="a" place="margin">1 Tim. 5.8.</note> Chriſtians. And this prudential care is, when we do, what lawfully we may to procure the comforts of life; and then with all quietneſs and indifferency, ſubmit the ſuc<g ref="char:EOLhyphen"/>ceſs to God. This is a care of Diligence. But that which is juſtly branded with folly is a care of Diffidence, which is alway accompanied with tor<g ref="char:EOLhyphen"/>ment, fears, and diſtractions about the ſucceſs and iſſue, and moſt unreaſonably vexeth us, for what is not in our power to determine. Such a care as this uſurps upon God. And cer<g ref="char:EOLhyphen"/>tainly
+<pb n="107" facs="tcp:48296:61"/>
+it is no leſs a fault to in<g ref="char:EOLhyphen"/>vade Gods part, than to neg<g ref="char:EOLhyphen"/>lect our own; and a like folly. The right temper a Chriſtian ſhould obſerve in procuring a<g ref="char:EOLhyphen"/>ny worldly comfort, is to in<g ref="char:EOLhyphen"/>tereſt his judgement in the choice of means, but to keep his affections disintereſted and unconcern'd in the event. But when we are anxious, how our deſigns will ſucceed, we make it a torment to us in getting, before we can make it a com<g ref="char:EOLhyphen"/>fort to us in enjoying.</p>
+            <p>To what purpoſe then doſt thou, O worldling, rack thy brains with contrivances, how to fill thy baggs with treaſure, how to empty them out with advantage? When thou haſt added heap to heap; of all thy ſtore thou
+<pb n="108" facs="tcp:48296:62"/>
+enjoyeſt no more, than what thou eateſt, or drinkeſt, or weareſt: and of this too thou enjoyeſt no more, than will juſt ſuffice to ſatisfie thy hun<g ref="char:EOLhyphen"/>ger, to quench thy thirſt, and to fence off the injuries of the weather: all the reſt turns either to diſeaſes, or burdens. True reaſon will teach us to chuſe our Eſtates, as we would do our <note n="b" place="margin">Fortuna, velut tuai<g ref="char:EOLhyphen"/>ca, magis concinna quàm longa proba<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>da, quipp<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> etiam ea ſi no<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> geſtetur, &amp; trah<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tur, nihilo m<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ùs quam l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ci<g ref="char:EOLhyphen"/>nia praepen<g ref="char:EOLhyphen"/>dens <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> dit &amp; praecipi<g ref="char:EOLhyphen"/>tat. Etenim <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n omnibus ad vitae munia utendis, q<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>icquid apiam mo<g ref="char:EOLhyphen"/>deratio<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>em ſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>perg<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>editur on ripotiu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> quam uſui exuberat. <hi>Ap<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>l. Apol.</hi>
+               </note> Garments, not thoſe which are largeſt, but thoſe which are fitteſt for us. Vaſt and overflowing Eſtates are but like huge en<g ref="char:EOLhyphen"/>ormous Rudders, that rather ſerve to ſink the Ship, than ſteer it: their abundance is uſeleſs and their exceſs dan<g ref="char:EOLhyphen"/>gerous.
+<pb n="109" facs="tcp:48296:62"/>
+To what end there<g ref="char:EOLhyphen"/>fore is all our care and cark<g ref="char:EOLhyphen"/>ing, all our perplexing and ſolicitous thoughts, thoſe parching and conſuming di<g ref="char:EOLhyphen"/>ſtractions, which can haſten on nothing but our own na<g ref="char:EOLhyphen"/>tural decayes; to what end are they, unleſs it be to con<g ref="char:EOLhyphen"/>tradict our <hi>Saviour,</hi> and ſhew that we have a power to make <hi>our</hi> 
+               <note n="c" place="margin">Mat. 5.36.</note> 
+               <hi>black hairs white?</hi> When we lay ſubtil and intricate de<g ref="char:EOLhyphen"/>ſignes to obtain the things of this World, we are but like Spiders, that with a great deal of art and labour, weave a curious Cobweb, onely to catch Flies; and poſſibly ſpend more of their bowels in fra<g ref="char:EOLhyphen"/>ming it than the prey they catch can again repair. Yea, and it may be too, before the
+<pb n="110" facs="tcp:48296:63"/>
+prey be caught, both they and their Web are ſwept down together, and trod in the duſt. So when we frame deſignes, to get any worldly advantage, it is but taking a great deal of pains to catch a Flie. And poſſibly before it be caught, the rude hand of death wraps us about in our Cob<g ref="char:EOLhyphen"/>web, and ſweeps us down into the Grave, <note n="d" place="margin">Pſal. 146.4.</note> and <hi>in that very moment, we, and all our well laid projects periſh toge<g ref="char:EOLhyphen"/>ther.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/>
+               <hi>Thirdly,</hi> If the World be thus vain, what extream and prodigious folly is it, to take as much pains to ſecure the poor and periſhing concern<g ref="char:EOLhyphen"/>ments of it, as would ſuffice to ſecure Heaven and eternal glory, were they laid out that
+<pb n="111" facs="tcp:48296:63"/>
+way! We labour for the Bread that periſheth, and we periſh with it in our very mouths. About this are our hearts, our hands, our ſtrength, our time employed: where<g ref="char:EOLhyphen"/>as the great things of Eter<g ref="char:EOLhyphen"/>nity, are ſo utterly neglected by us, as if they were none of our concernments to look after. Were we but as la<g ref="char:EOLhyphen"/>borious in our Chriſtian call<g ref="char:EOLhyphen"/>ing, as we commonly are in our Worldly callings, ſalvati<g ref="char:EOLhyphen"/>on would not lie upon our hands unwrought, God and Chriſt, and all Heaven were ours. Who would doubt, when they ſee men ſo buſie a<g ref="char:EOLhyphen"/>bout impertinencies, and the trivial affairs of this World, but that they were much more anxious about their
+<pb n="112" facs="tcp:48296:64"/>
+ſouls? Who would not con<g ref="char:EOLhyphen"/>clude, that certainly their great work is already done, that ſhall ſee them ſo earneſt and ſolicitous about petty matters? But alas! It may aſtoniſh Men and Angels, that rational Creatures, who have immortal ſouls, Souls whoſe endleſs duration, muſt abide either in inconceivable miſery or bliſſe, ſhould trifle away that time and ſtrength, which might ſecure their everlaſting happineſs, about thoſe vain nothings, that have neither happineſs in them, nor con<g ref="char:EOLhyphen"/>tinuance. Certainly, the ſer<g ref="char:EOLhyphen"/>vice of God is not more painful, than the drudgery of the World: and ſure I am, it is far more cleanly. Thou ſhalt not in his ſervice ſet
+<pb n="113" facs="tcp:48296:64"/>
+thine hand to any foul Office: whereas the world employes thee baſely to rake together thick clay, and load thy ſelf with it; and the Devil yet worſe, to rake in the mire and filth of all manner of de<g ref="char:EOLhyphen"/>filements, which now pollute the ſoul, and will hereafter damn it. Both theſe are moſt grievous task-maſters. Some <hi>draw iniquity with cords of va<g ref="char:EOLhyphen"/>nity, and ſin, as it were with a cart-rope.</hi> Iſa. 5.18. They are ſo enſlaved to the work of the Devil, that he puts them into his Team, makes them draw and ſtrain for their iniquities, and doth them a courteſie when their ſins come eaſily. He makes them toil and ſweat in carrying Fagots to their own Fire,
+<pb n="114" facs="tcp:48296:65"/>
+and blowing up thoſe flames, which muſt for ever burn them. Others (as the <hi>Prophet</hi> expreſſeth it <hi>Hab.</hi> 2.13.) <hi>la<g ref="char:EOLhyphen"/>bour in the fire, and weary them<g ref="char:EOLhyphen"/>ſelves for very Vanity.</hi> They take great pains in the World, and meet with great diſappointments; for both are ſignified by <hi>labouring in the fire,</hi> where what they pro<g ref="char:EOLhyphen"/>duce, cannot be enjoyed, but is conſumed between their hands.</p>
+            <p>Since then you muſt take ſo much pains, either for ſin, or Vanity, why will you not be perſwaded rather to lay it out upon that which is ſub<g ref="char:EOLhyphen"/>ſtantially good and eternally ſo? God requires not more, but onely other work from you:<note place="margin">Luke 10.45.</note> and the <hi>many things</hi>
+               <pb n="115" facs="tcp:48296:65"/>
+that <hi>Martha</hi> was careful a<g ref="char:EOLhyphen"/>bout, Religion and Holineſſe reduceth to the <hi>One thing ne<g ref="char:EOLhyphen"/>ceſſary;</hi> which though it con<g ref="char:EOLhyphen"/>tains many particular duties under it, yet by reaſon of its uniformity and ſubſerviency to it ſelf, is leſs diſtracting and cumberſome. The Wheels of a Watch move and click as faſt, when it goes falſe, as when it goes true: and if it be but ſet right at firſt, the ſame activity of the Spring will ſo continue it, which before made its motion irre<g ref="char:EOLhyphen"/>gular. So is it here: The ſame activity and induſtry which you irregularly uſe in purſuit of the World, would procure Heaven and Glory for you, were it that way direct<g ref="char:EOLhyphen"/>ed. Your cares, your contri<g ref="char:EOLunhyphen"/>vances,
+<pb n="116" facs="tcp:48296:66"/>
+your endeavours, need be no more than now they are; onely what before you laid out upon the World, reſerve now for Heaven. And how infinitely reaſonable is this! Certainly they are moſt ſtupidly fooliſh, that will take up Vanity at as dear a rate as Happineſs, and give as much for Vexation, as for endleſs Joy.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/>
+               <hi>Fourthly,</hi> If the things of this World be ſo vain, what inexcuſable folly is it to part with the peace, or the purity of our Conſciences for them! And yet what more common? If men can get any thing of the World at the price of a ſin, they think, they have made a gainful bargain. And there<g ref="char:EOLhyphen"/>fore the Devil hath recourſe to
+<pb n="117" facs="tcp:48296:66"/>
+this, as his moſt prevailing temptation. When he ſet on our <hi>Saviour</hi> in the Wilder<g ref="char:EOLhyphen"/>neſs, the laſt aſſault was, <note n="a" place="margin">Mat. 4 9.</note> 
+               <hi>All theſe things will I give thee, if thou wilt fall down and wor<g ref="char:EOLhyphen"/>ſhip me;</hi> and when this bat<g ref="char:EOLhyphen"/>tery could not make a breach, he raiſeth his ſiege, as de<g ref="char:EOLhyphen"/>ſpairing of ſucceſs. And this is the uſual temptation by which he aſſaults others. <hi>Ju<g ref="char:EOLhyphen"/>das</hi> comes with his <note n="b" place="margin">Mat. 26.15.</note> 
+               <hi>Quid da<g ref="char:EOLhyphen"/>bitis,</hi> what will you give me; and ſets Chriſt, and his own Conſcience to ſale, for the in<g ref="char:EOLhyphen"/>conſiderable ſum of <hi>thirty pieces.</hi> He demands no more than the common market <note n="c" place="margin">Exod. 21.32.</note> price of a ſlave (not amount<g ref="char:EOLhyphen"/>ing to above <note n="d" place="margin">Accounting the value of the common ſhekel to be <hi>15</hi> pence of our money.</note> eight and thirty ſhillings) for the Lord of Life and Glory: And thinks his
+<pb n="118" facs="tcp:48296:67"/>
+bargain ſo good, that he gives himſelf to the Devil for van<g ref="char:EOLhyphen"/>tage. This is the very root of all that injuſtice, and rapine, and oppreſion, and violence that is to be found among men. They all ſtrive and tugg, who ſhall get moſt of this earth from one another; and loſe Heaven, and their own Conſciences in the ſcuffle. This is it that makes men ſo oft ſhift their Sails, that they may run before every wind that blows. If times grow rough and tempeſtuous, and they muſt throw over<g ref="char:EOLhyphen"/>board either their gain, or their godlineſs, this perſwades them to make ſhipwrack of Faith and a good Conſcience, onely that they may bear up in this World, though they
+<pb n="119" facs="tcp:48296:67"/>
+ſink hereafter, Now, what de<g ref="char:EOLhyphen"/>plorable folly is this! When thy conſcience is diſquieted with the tormenting review of paſt crimes, what will all thy ill-gotten wealth avail thee? Thou wilt then with extream horror caſt thy eyes upon all thy treaſures of wickedneſſe, when conſcience ſhall tell thee, thou haſt not onely treaſur'd up them, but wrath too againſt the day of wrath.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="5"/>
+               <hi>Fifthly,</hi> What deſperate folly is it to purchaſe a vain World, with the loſs of our precious Souls! So our <hi>Savi<g ref="char:EOLhyphen"/>our Matth.</hi> 16.26. <hi>What is a man profited if he ſhall gain the whole World, and loſe his own Soul, or what ſhall a man give in exchange for his Soul?</hi> O think what great loſers they
+<pb n="120" facs="tcp:48296:68"/>
+muſt needs be, who loſe their Souls, to gain the World, and muſt at laſt loſe the World too, together with their Souls! This is the on<g ref="char:EOLhyphen"/>ly thing that damns men, that they prefer the Pleaſures, Honours, Profits, and pitiful nothings of this World, be<g ref="char:EOLhyphen"/>fore their precious and immor<g ref="char:EOLhyphen"/>tal Souls, which are more worth than ten thouſand Worlds. What is this but a ſtupidity as groſſe, as that of the old Heathens, to make a vile Worm our God, and ſa<g ref="char:EOLhyphen"/>crifice an Ox to it; or a Mon<g ref="char:EOLhyphen"/>ſter our God, and ſacrifice a Man to it? Think how dread<g ref="char:EOLhyphen"/>ful and grating will be the re<g ref="char:EOLhyphen"/>flexions of worldlings in hell, to conſider that there they muſt lye and burn to eternity,
+<pb n="121" facs="tcp:48296:68"/>
+for their inordinate love to that World, of which they have nothing left them, beſides the bitter remembrance. What will it then avail them that they have lived here in eaſe and delights, when all their mirth ſhall be turned into groans and howling? What will all their treaſures and riches avail them, when theſe ſhall be melted down about them, to encreaſe their torment? Believe it, 'tis ſad to be left to the conviction of that day, when the Vanity of Earth, ſhall appear in the torments of Hell. Be perſwa<g ref="char:EOLhyphen"/>ded therefore, as you have re<g ref="char:EOLhyphen"/>nounced it in all its pomps and and vanities, when you gave up your Names to Chriſtianity, ſo to renounce it likewiſe in your lives; habitually, at all
+<pb n="122" facs="tcp:48296:69"/>
+times, by ſetting looſe from it, and living above it; and actu<g ref="char:EOLhyphen"/>ally, whenſoever God calls for any of your temporal enjoy<g ref="char:EOLhyphen"/>ments, that is, when you can<g ref="char:EOLhyphen"/>not keep them without wound<g ref="char:EOLhyphen"/>ing your conſciences, and ha<g ref="char:EOLhyphen"/>zarding your ſouls.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/>
+               <hi>Thirdly,</hi> Another Uſe may be this, If the World be thus vain and empty, why then ſhould we pride our ſelves in, or prize our ſelves by any poor enjoyments of it? How fool<g ref="char:EOLhyphen"/>iſh is it to account thy ſelf a better man than another, onely becauſe thy dunghill is a little bigger than his! Theſe things are not at all to be reckoned in<g ref="char:EOLhyphen"/>to the value and worth of a man: they are all without thee, and concern thee no more than fine cloaths do the
+<pb n="123" facs="tcp:48296:69"/>
+health or ſtrength of the body. 'Tis wealth indeed that makes all the noiſe and buſtle in the World, and challengeth all the reſpect and honour to it ſelf, and the ignorant Vulgar, whoſe eyes are dazled with pomp and bravery, pay it with a ſtupid and aſtoniſht reve<g ref="char:EOLhyphen"/>rence. Yet know, that it is but thy Silks and Velvet, thy Lands, or thy Retinue and Ser<g ref="char:EOLhyphen"/>vants, they venerate not thee: and if thou think'ſt otherwiſe, thou art as juſtly ridiculous, as that Aſſe in the Apologue, that grew very gravely proud, and took ſtate when the people fell proſtrate before him, adoring not him but the Idol he carry<g ref="char:EOLhyphen"/>ed.</p>
+            <p>Thoſe things which belong to the perfection of a man,
+<pb n="124" facs="tcp:48296:70"/>
+are all within him; Knowledg, and Wiſdom, and Temperance, a ſerene Mind, and calm Af<g ref="char:EOLhyphen"/>fections, an inflexible Vertue, and a Soul conſtant and true to it ſelf in all Occurrences. Give me ſuch an one that can ſtand firm and unſhaken upon his own baſis, when the whole World totters; that knows what is juſt and honeſt, and dares do it; that is maſter of his own paſſions, and ſcorns to be a ſlave to anothers; ſuch an one in his Rags and Poverty, is a far better man than thoſe gay things, who owe all their parts, and wiſdom, and vertue to their Rentals, and whoſe Tenants and Stewards bring them in the yearly Revenue of their Repu<g ref="char:EOLhyphen"/>tation. But then ſuppoſe this excellent perſon indowed with
+<pb n="125" facs="tcp:48296:70"/>
+Divine Grace, and the true fear and love of God, and this will exalt him above the high<g ref="char:EOLhyphen"/>eſt and greateſt of other men, as far as they themſelves are a<g ref="char:EOLhyphen"/>bove the vileſt of Beaſts. <hi>So<g ref="char:EOLhyphen"/>lomon</hi> tells us, <hi>Prov.</hi> 10.20. <hi>That the heart of the wicked is little worth;</hi> it is of no price nor value: And ſhall his eſtate be, when his heart is not? In<g ref="char:EOLhyphen"/>deed nothing makes us rich as men, but Wiſdom and vertue, nor as Chriſtians, but Piety and Holineſs. And in theſe which are the onely true and ſubſtantial riches, the pooreſt Chriſtian may vie ſtakes with all the world. Drop millions of Gold, boundleſs Revenues, ample Territories, Crowns and Scepters, and a poor contem<g ref="char:EOLhyphen"/>ptible Chriſtian lays his one
+<pb n="126" facs="tcp:48296:71"/>
+God againſt all theſe, and beg<g ref="char:EOLhyphen"/>gars them.</p>
+            <p>If the World and all the en<g ref="char:EOLhyphen"/>joyments of it be thus vain, <note n="a" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. An<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>. <hi>l. 9. S 3.</hi> A<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s mors <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>bdu<g ref="char:EOLhyphen"/>cit, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> à bo<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>is, verum ſi quae imus. Hoc quidum à Circ<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ico H<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>geſia ſis cop<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> d<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſ<g ref="char:EOLhyphen"/>putatur, ut is a reg<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Ptolaem<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o prohib<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tus eſſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> dicatur illa in ſcholis di<g ref="char:EOLhyphen"/>cere, quod <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>uditis, mortem ſibi ipſi conſciſcerent. Cic. Tuſ. quaſt <hi>l. 1.</hi>
+               </note> this ſhould fortifie us againſt the fear of Death, which can deprive us of nothing but what is both vain and vexatious.</p>
+            <p>Life is nothing elſe but an huddle of buſineſs, a great ſwarm of employments, that have more ſtings in them, than Hony. If we be great, we are but the larger Hives for cares. If honourable, we are but rai<g ref="char:EOLhyphen"/>ſed above others to be the more weather-beaten. An high de<g ref="char:EOLhyphen"/>gree in this World, doth but ſhelter other mens cares under our wings, and adopt other
+<pb n="127" facs="tcp:48296:71"/>
+mens troubles, as a wretched ſupplement to our own. If our eſtate be mean and low; as it expoſeth us to contempt and injuries, ſo it engageth us to reſcue our ſelves from the preſſures of Poverty by our own ſweat and induſtry. Thoſe few things that are neceſſary to a comfortable ſubſiſtence in the world, will yet coſt us care and labour, an aking heart, and a weary hand; and this turns our Bread into Stones, and our Fiſh into Scorpions. If we have too much buſineſs in the world, our callings become a burden or temptation to us: And if we have none, we be<g ref="char:EOLhyphen"/>come a burden to our ſelves and to others. God hath writ<g ref="char:EOLhyphen"/>ten Vanity and Vexation upon every condition, and if his
+<pb n="128" facs="tcp:48296:72"/>
+Providence create not troubles for us, yet our own folly will. Thus hath man made himſelf a ſlave and drudg to the world, over which God had made him Lord.</p>
+            <p>Why then ſhould Death be ſo terrible, which comes onely to eaſe us of our burden, to ſtroak the ſweat from our brows, and to give us a pro<g ref="char:EOLhyphen"/>found reſt from all our labours in the bed of the Grave? <hi>There</hi> (as <hi>Job</hi> ſaith) <hi>the weary be at reſt;</hi>
+               <note place="margin">Job. 3.17.</note> and all cares and trou<g ref="char:EOLhyphen"/>bles vaniſh, as ſoon as our heads touch that Pillow. <hi>There is no work nor device in the grave whither we are going;</hi> but a deep repoſe, a ſecure retire<g ref="char:EOLhyphen"/>ment where none of the vexa<g ref="char:EOLhyphen"/>tions of this life ſhall ever find us.</p>
+            <p>
+               <pb n="129" facs="tcp:48296:72" rendition="simple:additions"/>And as it frees us from all the cares, ſo from all the ſor<g ref="char:EOLhyphen"/>rows of this world. What is our life but a bubble? Our ſighs are the Air, and our tears the water that make it. The firſt poſſeſſion that we take of this world, is by crying: And there is nothing in it that we hold by a ſurer tenure than our griefs. Tears are the inheri<g ref="char:EOLhyphen"/>tance of our eyes, either our ſins calls for them or our ſuf<g ref="char:EOLhyphen"/>ferings, and nothing can drie them up but the duſt of the Grave. Sometimes we loſe a Friend, or near Relation; the Tribute we owe their memory muſt be paid down in tears. Sometimes their ungodly pra<g ref="char:EOLhyphen"/>ctices torment us, when by their lewdneſs and debauche<g ref="char:EOLhyphen"/>ries they are loſt both to their
+<pb n="130" facs="tcp:48296:73" rendition="simple:additions"/>
+own intereſts, and our hopes. Sometimes compaſſion of other mens ſufferings, affects us with a tender ſorrow; and as if we had not grief enough ſpringing up out of our own bowels, we call in forraign ſuccours<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to augment the ſcore. And ma<g ref="char:EOLhyphen"/>ny times tedious and lingring ſickneſſes waſte us, grinding pains rack and torture us; which were far the more intollerable, but that they haſten on that Death, that puts an end and period to all a Chriſtians miſe<g ref="char:EOLhyphen"/>ries. We are not concerned in the Grave, at the loſs of ſome Friends, nor the evil courſes of others: What ca<g ref="char:EOLhyphen"/>lamities befall the World, or thoſe whom we loved deareſt in it. There it troubles us not, though preferment go by the
+<pb n="131" facs="tcp:48296:73"/>
+merit of flattery and baſeneſs, while the generous and gallant ſoul, ſtarves through the mere rigor of his Vertue. It con<g ref="char:EOLhyphen"/>cerns us nothing what ſtinking breath blaſts our good Name; or what unworthy foot treads upon our Grave. Here a lit<g ref="char:EOLhyphen"/>tle pain moleſts us; but their whole limbs rot, and fall off, and crumble into duſt, without at all diſturbing that quiet reſt, that buries all the cares and ſorrows of this life in ſilence and oblivion. Where then is the dreadfulneſs of death, which onely frees us from the troubles and croſſes of a wretched life? It is unreaſon<g ref="char:EOLhyphen"/>ble to complain of that change, which delivers us from a world of which we are ſtill complain<g ref="char:EOLhyphen"/>ing: And it is childiſh to
+<pb n="132" facs="tcp:48296:74"/>
+quarrel at that hand which un<g ref="char:EOLhyphen"/>dreſſes us, and ſtrips off our uneaſie garments, onely to lay us to ſleep.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="5"/> Laſtly, If the world be ſo vain and empty, we may learn to be well contented with our preſent ſtate and condition, whatſoever it be. It hath been fully demonſtrated, that there can be no compleat ſa<g ref="char:EOLhyphen"/>tisfaction in any eſtate: And why then ſhould we deſire change? The great ground of diſcontent, is not our wants, but our deſires.<note n="a" place="margin">
+                  <p>
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. Clem. Alex Paed. l. <hi>2.</hi> c. <hi>1.</hi>
+                  </p>
+                  <p>Quod ſati<g ref="char:EOLhyphen"/>are po<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>est dive<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> natura miniſtrat Quod docet inf<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>aenis gloria ſine circi. Petr.</p>
+               </note> There is ſcarce any condition in the world ſo low, but may ſatisfie our wants: And there is no condition ſo high, as can ſatisfie our deſires. <note n="b" place="margin">Charron de la ſageſ<g ref="char:EOLhyphen"/>ſe <hi>l. 3. c 25.</hi>
+               </note> If we live according to the law of Nature and Reaſon, we ſhall never be poor; but if we
+<pb n="133" facs="tcp:48296:74"/>
+live according to fond opinion and phancy, we ſhall never be rich. That which we have, be it never ſo little, is full as ſatisfactory, as that which we hope for, be it never ſo great. For Vanity and Vexation of ſpi<g ref="char:EOLhyphen"/>rit is paſt upon all that is in the world, whether it be more or leſs.</p>
+            <p>And therefore, O Chriſti<g ref="char:EOLhyphen"/>an, thou mayſt well bear a nar<g ref="char:EOLhyphen"/>row ſtint in the things of this world. If God reduce thee to a morſel of bread, and a cup of water, it is enough: This will ſuffice to bear thy charges to Heaven; or if this too ſhould fail, thy journey will onely be the ſhorter. Poſſibly God keeps thee ſhort in Vanities, that he might beſtow upon thee that which is ſolid and ſub<g ref="char:EOLhyphen"/>ſtantial
+<pb n="134" facs="tcp:48296:75"/>
+good. The <hi>Pſalmiſt</hi> tells us, <hi>Pſal.</hi> 68.19. that God <hi>daily loads us with his benefits.</hi> Though ſome may have more than others, yet every one hath his load, as much as he can carry. Every Veſſel cannot bear up with a like Sail, and therefore God to keep us from overſetting, puts on ſo much as will ſafeſt bring us to Hea<g ref="char:EOLhyphen"/>ven, our deſired Port.</p>
+            <p>Let us therefore <hi>Caſt theſe cares and burdens upon him who hath</hi> 
+               <note n="a" place="margin">Pſ. 55.22.</note> 
+               <hi>promiſed to ſustain us;</hi> and turn the ſtream of our de<g ref="char:EOLhyphen"/>ſires Heavenward, where alone we can find permanent and ſa<g ref="char:EOLhyphen"/>tisfactory good. <note n="b" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Antonin. l. <hi>4.</hi> S. <hi>22.</hi>
+               </note> Walk hum<g ref="char:EOLhyphen"/>bly
+<pb n="135" facs="tcp:48296:75"/>
+with God, keep your ſelves alway in an awful fear of his dread Majeſty, be conſtant in the exerciſe of Grace, and the performance of Duty: Theſe are the onely things ex<g ref="char:EOLhyphen"/>empted from Vanity and Vexation; in theſe alone can the Soul find true reſt and contentment. And therefore <hi>Solomon,</hi> after he had pierc't and ſearcht, through all the World, and pronounced Riches, Strength, Beauty, Wiſdom, Learning, and all to be Vanity and Vexation of Spirit; he reſts himſelf in the Cloſe, and tells us, <hi>Chapter</hi> 12.13. <hi>Let us hear the Concluſion of the whole mat<g ref="char:EOLhyphen"/>ter: Fear God, and keep his Commandments, for this is
+<pb n="136" facs="tcp:48296:76"/>
+the whole of man:</hi> It is his whole duty, and his onely happineſs in this life.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:48296:76"/>
+         </div>
+      </body>
+   </text>
+</TEI>
